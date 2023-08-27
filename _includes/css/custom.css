@@ -1,11 +1,10 @@
 .navbar-brand {
   float: none;
   display: inline-flex;
+  flex-wrap: wrap;
 }
 .navbar-brand img {
   max-width: 20%;
-  height: auto;
-  padding-bottom: 3%;
 }
 .btn-xl {
   border-radius: 0px 20px;
