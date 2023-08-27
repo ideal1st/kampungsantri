@@ -10,10 +10,11 @@
   height: auto;
 }
 .navbar-default.navbar-shrink .navbar-brand img {
-  max-height: 1500%;
+  max-height: 100%;
   width: auto;
-  position: absolute;
+  position: fixed;
   float: left;
+  margin: -20px 0px;
 }
 .btn-xl {
   border-radius: 0px 20px;
