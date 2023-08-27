@@ -9,6 +9,14 @@
   max-width: 20%;
   height: auto;
 }
+.navbar-default.navbar-shrink .navbar-brand {
+  position: absolute;
+  float: left;
+  display: block;
+  max-width: 80%;
+  margin: 0px;
+  padding: 5px;
+}
 .navbar-default.navbar-shrink .navbar-brand img {
   max-height: 80%;
   width: auto;
