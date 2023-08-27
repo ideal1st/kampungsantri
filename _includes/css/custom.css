@@ -1,10 +1,14 @@
 .navbar-brand {
+  position: absolute;
   float: left;
   display: flex;
   flex-wrap: wrap;
 }
 .navbar-brand img {
   max-width: 20%;
+}
+.navbar-shrink > .navbar-brand img {
+  max-height: 180%;
 }
 .btn-xl {
   border-radius: 0px 20px;
