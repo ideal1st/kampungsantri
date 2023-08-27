@@ -10,8 +10,9 @@
   height: auto;
 }
 .navbar-default.navbar-shrink .navbar-brand img {
-  max-height: 1000%;
+  max-height: 1500%;
   width: auto;
+  margin-top: -20px;
 }
 .btn-xl {
   border-radius: 0px 20px;
