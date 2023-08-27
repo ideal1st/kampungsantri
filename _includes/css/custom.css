@@ -23,6 +23,9 @@
   position: fixed;
   float: left;
 }
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0px 20px;
+}
 .btn-xl {
   border-radius: 0px 20px;
 }
