@@ -1,9 +1,11 @@
+.navbar-brand .page-scroll {
+  float:none;
+}
 .navbar-brand img {
   max-width: 20%;
   height: auto;
   padding-top: 3%;
 }
-
 .btn-xl {
   border-radius: 0px 20px;
 }
