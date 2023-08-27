@@ -25,3 +25,5 @@ tagline: Beradab. Berilmu. Berdikari.
 logo:
   url: "/img/logo.png"
   alt: Pesantren Kampung Santri
+favicon:
+  url: "/_uploads/favicon.png"
