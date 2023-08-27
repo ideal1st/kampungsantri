@@ -1,5 +1,5 @@
 .navbar-brand {
-  float: none;
+  float: left;
   display: inline-flex;
   flex-wrap: wrap;
 }
