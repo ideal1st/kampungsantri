@@ -1,0 +1,58 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><!--{{site.title}}--><img src="{{ page.logo.url }}" alt="{{ page.logo.alt }}" /></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#{{ page.service.id }}">{{ page.service.alias }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="##{{ page.portfolio.id }}">{{ page.portfolio.alias }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="##{{ page.about.id }}">{{ page.about.alias }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="##{{ page.team.id }}">{{ page.team.alias }}</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="##{{ page.contact.id }}">{{ page.contact.alias }}</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">{{ site.tagline }}</div>
+                <div class="intro-heading">{{ site.title }}</div>
+                <a href="#{{ page.service.id }}" class="page-scroll btn btn-xl">{{ page.service.alias }}</a>
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+
