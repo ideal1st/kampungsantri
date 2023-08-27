@@ -7,4 +7,5 @@ type: Agenda
 layout: page
 ---
 
+![psb2.png](/uploads/psb2.png)
 Coming soon: 23 September 2023
