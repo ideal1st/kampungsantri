@@ -1,6 +1,6 @@
 .navbar-brand {
-  float: inherit;
-  display: inline-flex;
+  float: left;
+  display: flex;
   flex-wrap: wrap;
 }
 .navbar-brand img {
