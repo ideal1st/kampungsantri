@@ -22,3 +22,6 @@ defaults:
     layout: page
 permalink: pretty
 site.description: Beradab. Berilmu. Berdikari.
+logo:
+  url: "/img/logo.png"
+  alt: Pesantren Kampung Santri
