@@ -6,7 +6,7 @@
   max-width: 80%;
 }
 .navbar-brand img {
-  max-width: 20%;
+  max-width: 25%;
   height: auto;
 }
 .navbar-default.navbar-shrink .navbar-brand {
@@ -18,7 +18,7 @@
   padding: 5px;
 }
 .navbar-default.navbar-shrink .navbar-brand img {
-  max-height: 95%;
+  max-height: 100%;
   width: auto;
   position: fixed;
   float: left;
