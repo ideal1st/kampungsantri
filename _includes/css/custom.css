@@ -3,6 +3,7 @@
   float: left;
   display: flex;
   flex-wrap: wrap;
+  max-width: 80%;
 }
 .navbar-brand img {
   max-width: 20%;
