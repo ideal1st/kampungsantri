@@ -5,7 +5,7 @@ categories:
 - Web Development
 subtitle: Kegiatan Belajar Mengajar
 modal-id: 1
-img: dreams.png
+img: "/uploads/DSCF1489.JPG"
 thumbnail: "/uploads/DSCF1489.JPG"
 alt: image-alt
 project-date: 2014-04-01 07:00:00 +07:00
