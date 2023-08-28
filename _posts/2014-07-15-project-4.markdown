@@ -1,18 +1,18 @@
 ---
-title: Treehouse
-date: 2014-07-15 00:00:00 Z
+title: Bahasa Arab Malam
+date: 2014-07-15 07:00:00 +07:00
 categories:
 - Web Development
 subtitle: Website Design
-layout: default
 modal-id: 4
 img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: 2014-04-01 07:00:00 +07:00
 client: Start Bootstrap
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
   novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
   diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+layout: default
 ---
 
