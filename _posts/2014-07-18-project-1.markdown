@@ -1,5 +1,5 @@
 ---
-title: Kegiatan Belajar
+title: KBM
 date: 2014-07-18 07:00:00 +07:00
 categories:
 - Web Development
