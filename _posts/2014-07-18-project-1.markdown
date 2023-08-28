@@ -3,7 +3,7 @@ title: KBM
 date: 2014-07-18 07:00:00 +07:00
 categories:
 - Web Development
-subtitle: Website Design
+subtitle: Kegiatan Belajar Mengajar
 modal-id: 1
 img: dreams.png
 thumbnail: dreams-thumbnail.png
