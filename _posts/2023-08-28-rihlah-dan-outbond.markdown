@@ -1,8 +1,8 @@
 ---
 title: Rihlah dan Outbond
 date: 2023-08-28 08:48:00 +07:00
-subtitle: 9
-modal-id: 
+subtitle: 
+modal-id: 9
 thumbnail: 
 ---
 
