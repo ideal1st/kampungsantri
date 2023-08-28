@@ -5,6 +5,9 @@ collections:
   fasilitas:
     title: Fasilitas
     output: true
+  kunjungan-tokoh:
+    title: Kunjungan Tokoh
+    output: true
   psb:
     title: PSB
     output: true
