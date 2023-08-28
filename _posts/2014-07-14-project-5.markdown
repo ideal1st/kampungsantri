@@ -1,18 +1,18 @@
 ---
-title: Startup Framework
-date: 2014-07-14 00:00:00 Z
+title: Kajian Tematik
+date: 2014-07-14 07:00:00 +07:00
 categories:
 - Web Development
 subtitle: Website Design
-layout: default
 modal-id: 5
 img: startup-framework.png
 thumbnail: startup-framework-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: 2014-04-01 07:00:00 +07:00
 client: Start Bootstrap
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo
   novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo
   diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+layout: default
 ---
 
