@@ -5,6 +5,9 @@ collections:
   fasilitas:
     title: Fasilitas
     output: true
+  psb:
+    title: PSB
+    output: true
   posts:
     title: Posts
     output: true
