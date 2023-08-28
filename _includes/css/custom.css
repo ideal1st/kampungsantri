@@ -29,3 +29,10 @@
 .btn-xl {
   border-radius: 0px 20px;
 }
+@media (min-width: 640px)
+.navbar-default.navbar-shrink .navbar-brand img {
+  max-height: 80%;
+  width: auto;
+  position: fixed;
+  float: left;
+}
