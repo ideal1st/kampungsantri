@@ -6,7 +6,7 @@ categories:
 subtitle: Kegiatan Belajar Mengajar
 modal-id: 1
 img: dreams.png
-thumbnail: "/uploads/DSCF1489.JPG"
+thumbnail: "/_uploads/DSCF1489.JPG"
 alt: image-alt
 project-date: 2014-04-01 07:00:00 +07:00
 client: Start Bootstrap
