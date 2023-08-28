@@ -2,6 +2,9 @@
 title: Pesantren Kampung Santri
 timezone: Asia/Jakarta
 collections:
+  fasilitas:
+    title: Fasilitas
+    output: true
   posts:
     title: Posts
     output: true
