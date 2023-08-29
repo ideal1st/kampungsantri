@@ -8,6 +8,9 @@ collections:
   kunjungan-tokoh:
     title: Kunjungan Tokoh
     output: true
+  misi:
+    title: Misi
+    output: true
   psb:
     title: PSB
     output: true
