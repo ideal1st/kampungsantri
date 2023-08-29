@@ -58,3 +58,10 @@ narrative:
   fasilitas:
     title: Fasilitas
     comment: Nikmatnya menuntut ilmu syar'i. Serasa di rumah sendiri.
+  kegiatan:
+    title: Kegiatan
+    comment: Karena setiap detik yang berlalu, akan dipertanggungjawabkan.
+  visi:
+    title: Visi
+    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab,
+      berilmu, dan berdikari.
