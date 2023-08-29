@@ -69,7 +69,7 @@ narrative:
   misi:
     title: Misi
     item:
-      id: 3
-      icon: handshake-simple
-      comment: Menjadi mitra keluarga dalam menyelenggarakan pendidikan yang amanah,
-        profesional, dan ramah anak.
+      id: 2
+      icon: house-chimney-user
+      comment: Menjadi rumah yang nyaman bagi penghafal Al-Qur'an dan penuntut ilmu
+        syar'i.
