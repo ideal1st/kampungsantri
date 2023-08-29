@@ -104,7 +104,9 @@ p.misi {
 #fasilitas * {
     z-index: 2;
 }
-
+#fasilitas h2.section-heading {
+	color: #fff;
+}
 
 @media(min-width: 768px) {
 .navbar-default.navbar-shrink .navbar-brand img {
