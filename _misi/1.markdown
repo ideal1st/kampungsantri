@@ -1,0 +1,7 @@
+---
+title: '1'
+date: 2023-08-30 06:18:00 +07:00
+icon: book-quran
+---
+
+Mencetak lulusan yang bertauhid dan beribadah sesuai Al-Qur'an dan Sunnah.
