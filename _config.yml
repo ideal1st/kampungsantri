@@ -58,14 +58,14 @@ logo:
 favicon:
   url: "/uploads/favicon.png"
 narrative:
+  visi:
+    title: Visi
+    icon: hands-holding-child
+    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab,
+      berilmu, dan berdikari.
   fasilitas:
     title: Fasilitas
     comment: Nikmatnya menuntut ilmu syar'i. Serasa di rumah sendiri.
   kegiatan:
     title: Kegiatan
     comment: Karena setiap detik yang berlalu, akan dipertanggungjawabkan.
-  visi:
-    title: Visi
-    icon: hands-holding-child
-    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab,
-      berilmu, dan berdikari.
