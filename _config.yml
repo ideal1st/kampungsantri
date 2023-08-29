@@ -69,7 +69,7 @@ narrative:
   misi:
     title: Misi
     item:
-      id: 1
-      icon: book-quran
-      comment: Mencetak lulusan yang bertauhid dan beribadah sesuai Al-Qur'an dan
-        Sunnah.
+      id: 3
+      icon: handshake-simple
+      comment: Menjadi mitra keluarga dalam menyelenggarakan pendidikan yang amanah,
+        profesional, dan ramah anak.
