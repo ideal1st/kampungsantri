@@ -54,3 +54,7 @@ logo:
   alt: Pesantren Kampung Santri
 favicon:
   url: "/uploads/favicon.png"
+narrative:
+  fasilitas:
+    title: Fasilitas
+    comment: Nikmatnya menuntut ilmu syar'i. Serasa di rumah sendiri.
