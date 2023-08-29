@@ -22,6 +22,12 @@ defaults:
     path: ''
     type: posts
   values:
+    subtitle: 
+    modal-id: 
+    img: 
+    thumbnail: 
+    alt: 
+    description: 
     layout: post
     permalink: "/posts/:title/"
 - scope:
@@ -29,6 +35,18 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: fasilitas
+  values:
+    subtitle: 
+    modal-id: 
+    img: 
+    thumbnail: 
+    alt: 
+    description: 
+    layout: default
+    permalink: "/fasilitas/:title/"
 permalink: pretty
 tagline: Beradab. Berilmu. Berdikari.
 logo:
