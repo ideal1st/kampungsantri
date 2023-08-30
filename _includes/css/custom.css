@@ -1,5 +1,13 @@
-p.misi {
+#visimisi p.misi {
   padding-top: 20px;
+}
+
+#visimisi .col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar-brand {
@@ -115,4 +123,10 @@ p.misi {
   position: fixed;
   float: left;
 }
+}
+
+::selection {
+    text-shadow: none;
+    background: {{ site.data.template.color.primary }};
+    color: #fff;
 }
