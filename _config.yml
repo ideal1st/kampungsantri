@@ -24,6 +24,7 @@ collections:
   teachers:
     title: Teachers
     output: true
+    long-name: Asatidzah
   uploads:
     title: Uploads
     output: true
