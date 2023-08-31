@@ -5,6 +5,7 @@ collections:
   agendas:
     title: Agendas
     output: true
+    long-name: Agenda Kegiatan Harian Santri
   fasilitas:
     title: Fasilitas
     output: true
