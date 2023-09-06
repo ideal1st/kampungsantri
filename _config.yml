@@ -25,6 +25,10 @@ collections:
     title: Teachers
     output: true
     long-name: Asatidzah
+  testimonies:
+    title: Testimonies
+    output: true
+    long-name: Kata Mereka
   uploads:
     title: Uploads
     output: true
@@ -67,14 +71,25 @@ logo:
 favicon:
   url: "/uploads/favicon.png"
 narrative:
+  home:
+    title: Pesantren Kampung Santri
+    bgimg: "/uploads/beranda-header.jpg"
+    comment: Putri-putri kita adalah calon pendidik dan pengasuh utama generasi kaum muslimin di masa depan. Pastikan mereka tumbuh dalam indahnya hidayah, nikmatnya ibadah, dan tenteramnya Sunnah.
+    cta-btn: Visi dan Misi Kami
+    cta-url: "#visi-misi"
   visi:
     title: Visi
     icon: hands-holding-child
-    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab,
-      berilmu, dan berdikari.
+    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab, berilmu, dan berdikari.
   misi:
     title: Misi
     comment: 
+  asatidzah:
+    title: Asatidzah
+    comment: Bersama Aba dan Umma, menghadirkan pendidikan dan pengasuhan yang insyaAllah melahirkan kader al-madrasah al-ula.
+  testimony:
+    title: Kata Mereka
+    comment: ...tentang Pesantren Kampung Santri.
   fasilitas:
     title: Fasilitas
     comment: Nikmatnya menuntut ilmu syar'i. Serasa di rumah sendiri.
@@ -84,34 +99,3 @@ narrative:
   budaya:
     title: Budaya
     comment: 
-  home:
-    title: Pesantren Kampung Santri
-    bgimg: "/uploads/beranda-header.jpg"
-    comment: Putri-putri kita adalah calon pendidik dan pengasuh utama generasi kaum muslimin di masa depan. Pastikan mereka tumbuh dalam indahnya hidayah, nikmatnya ibadah, dan tenteramnya Sunnah.
-    cta-btn: Visi dan Misi Kami
-    cta-url: "#visi-misi"
-people:
-- name: Ust. Rofiq Mustain
-  pic: 1
-  position: Pembina
-  social:
-  - title: facebook
-    url: https://fb.me/rofiqmustain
-- name: Ust. Irfan Abizar
-  pic: 2
-  position: Pimpinan
-  social:
-  - title: instagram
-    url: https://instagram.com/irfan_abizar
-- name: Firman Firdaus, BA.
-  pic: 3
-  position: Kepala TDP
-  social:
-  - title: linkedin
-    url: https://linkedin.com/firmanfirdaus
-- name: Jumaidil Awal, M.Si.P.
-  pic: 4
-  position: Kepala SMP
-  social:
-  - title: github
-    url: https://ideal1st.github.io/

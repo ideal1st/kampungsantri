@@ -1,54 +1,3 @@
-header {
-	padding: 40px 0;
-    text-align: center;
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}{{ site.narrative.home.bgimg }}');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-header .intro-text {
-    padding-top: 150px;
-    padding-bottom: 50px;
-}
-header .intro-text .intro-judul {
-    margin-bottom: 25px;
-    /*text-transform: uppercase;*/
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-	text-align: left;
-}
-header .intro-text .intro-narasi {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 24px;
-    font-style: italic;
-    line-height: 36px;
-	text-align: left;
-}
-header .btn {
-	float: left;
-}
-	
-
-#visi-misi h3.misi, h3.visi {
-  padding-top: 20px;
-  line-height: 20px;
-}
-
-#visi-misi .col-md-4 {
-  position: relative;
-  min-height: 1px;
-  padding: 0 15px 15px 15px;
-}
-
 .navbar-brand {
   position: absolute;
   float: left;
@@ -106,9 +55,65 @@ header .btn {
   border-radius: 0 20px 0 0;
 }
 
+header {
+	padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}{{ site.narrative.home.bgimg }}');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+header .intro-text .intro-judul {
+    margin-bottom: 25px;
+    /*text-transform: uppercase;*/
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+	text-align: left;
+}
+header .intro-text .intro-narasi {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 24px;
+    font-style: italic;
+    line-height: 36px;
+	text-align: left;
+}
+header .btn {
+	float: left;
+}
+	
+
+#visi-misi h3.misi, h3.visi {
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+#visi-misi .col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px 15px 15px;
+}
+
 .btn-xl {
   border-radius: 0px 20px;
 }
+
+#testimoni .container {
+  color: #fff;
+}
+
 #fasilitas .portfolio-item {
     right: 0;
     margin: 0 0 15px;
