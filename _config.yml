@@ -46,6 +46,7 @@ defaults:
     type: pages
   values:
     layout: page
+    bgimg:
 - scope:
     path: ''
     type: fasilitas
@@ -85,7 +86,10 @@ narrative:
     comment: 
   home:
     title: Pesantren Kampung Santri
-    comment: 
+    bgimg: "/uploads/beranda-header.jpg"
+    comment: Putri-putri kita adalah calon pendidik dan pengasuh utama generasi kaum muslimin di masa depan. Pastikan mereka tumbuh dalam indahnya hidayah, nikmatnya ibadah, dan tenteramnya Sunnah.
+    cta-btn: Visi dan Misi Kami
+    cta-url: "#visi-misi"
 people:
 - name: Ust. Rofiq Mustain
   pic: 1
