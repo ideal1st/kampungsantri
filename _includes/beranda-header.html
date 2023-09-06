@@ -1,6 +1,6 @@
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1">
@@ -53,11 +53,13 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">{{ site.description }}</div>
-                <div class="intro-heading">{{ site.title }}</div>
-                <a href="#visi-misi" class="page-scroll btn btn-xl">Ahlan wa Sahlan</a>
+        <div class="container-fluid">
+            <div class="intro-gambar col-lg-6">
+			</div>
+			<div class="intro-text col-lg-6">
+                <div class="intro-judul">{{ site.narrative.home.title }}</div>
+                <div class="intro-narasi">{{ site.narrative.home.comment }}</div>
+                <a href="{{ site.narrative.home.cta-url }}" class="page-scroll btn btn-xl">{{ site.narrative.home.cta-btn }}</a>
             </div>
         </div>
     </header>
