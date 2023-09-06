@@ -1,9 +1,9 @@
 <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -14,38 +14,27 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<div>
                 <ul class="nav navbar-nav navbar-right">
-				{% assign links = site.data.nav %}
-				{% for link in links %}
-					{% assign class = nil %}
-					{% if page.url contains link.url %}
-						{% assign class = 'active' %}
-					{% endif %}
-					{% if link.sublinks %}
-						<li class="dropdown page-scroll {{ class }}">
-							<a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
-							<ul class="dropdown-menu {{ class }}">
-								{% for sublink in link.sublinks %}
-									{% if sublink.title == 'separator' %}
-										<li role="separator" class="divider"></li>
-									{% else %}
-										<li>
-											<a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
-										</li>
-									{% endif %}
-								{% endfor %}
-							</ul>
-						</li>
-						{% else %}
-						<li class="page-scroll {{ class }}">
-							<a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
-						</li>
-					{% endif %}
-				{% endfor %}	
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#visimisi">Visi & Misi</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Kegiatan</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
-			</div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -57,7 +46,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">{{ site.description }}</div>
                 <div class="intro-heading">{{ site.title }}</div>
-                <a href="#visi-misi" class="page-scroll btn btn-xl">Ahlan wa Sahlan</a>
+                <a href="#visimisi" class="page-scroll btn btn-xl">Ahlan wa Sahlan</a>
             </div>
         </div>
     </header>
