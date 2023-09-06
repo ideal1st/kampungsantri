@@ -1,5 +1,5 @@
 header {
-	padding: 40px 0;
+    padding: 40px 0;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -23,7 +23,7 @@ header .intro-text .intro-judul {
     font-size: 48px;
     font-weight: 700;
     line-height: 48px;
-	text-align: left;
+    text-align: left;
 }
 header .intro-text .intro-narasi {
     margin-bottom: 25px;
@@ -31,10 +31,10 @@ header .intro-text .intro-narasi {
     font-size: 24px;
     font-style: italic;
     line-height: 36px;
-	text-align: left;
+    text-align: left;
 }
 header .btn {
-	float: left;
+    float: left;
 }
 	
 
@@ -181,7 +181,7 @@ header .btn {
     z-index: 2;
 }
 #fasilitas h2.section-heading {
-	color: #fff;
+    color: #fff;
 }
 
 @media(min-width: 768px) {
