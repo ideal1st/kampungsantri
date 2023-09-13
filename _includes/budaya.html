@@ -1,0 +1,17 @@
+<!-- Budaya Section -->
+    <section id="budaya" class="bg-primary">
+        <div class="container">
+            <div class="row text-center">
+				<h2 class="section-heading">{{ site.narrative.budaya.title }}</h2>
+				{% for culture in site.cultures | sort:"position" %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-{{ culture.icon }} fa-stack-1x text-primary"></i>
+                    </span>
+                    <h3 class="misi section-subheading">{{ culture.content }}</h3>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

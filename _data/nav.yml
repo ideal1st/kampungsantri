@@ -30,7 +30,7 @@
     - title: Agenda Harian Santri
       url: /pendidikan/#agenda
 - title: PSB
-  url: /psb
+  url: /psb/
   sublinks:
     - title: Jadwal
       url: /psb/#jadwal
@@ -40,17 +40,14 @@
     - title: separator
     - title: Persyaratan
       url: /psb/#persyaratan
-- title: Aktivitas Santri
+- title: Galeri
   url: /aktivitas/
   sublinks:
     - title: KBM
       url: /aktivitas/#kbm
     - title: separator
-    - title: Tahfizh
+    - title: Tahfizh al-Qur'an
       url: /aktivitas/#tahfizh
-    - title: separator
-    - title: Kelas Malam
-      url: /aktivitas/#malam
     - title: separator
     - title: Keasramaan
       url: /aktivitas/#asrama

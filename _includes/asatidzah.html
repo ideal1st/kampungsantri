@@ -9,9 +9,9 @@
             </div>
             <div class="row">
                 {% for teacher in site.teachers %}
-                <div class="col-sm-2">
+                <div class="col-md-3">
                     <div class="team-member">
-                        <img src="{{ site.baseurl }}{{ teacher.img }}" class="img-responsive img-circle" alt="{{ teacher.img-alt }}">
+                        <img src="{{ site.url }}{{ teacher.img }}" class="img-responsive img-circle" alt="{{ teacher.img-alt }}">
                         <h4>{{ teacher.title }}</h4>
                         <p class="text-muted">{{ teacher.jabatan }}</p>
                         <ul class="list-inline social-buttons">

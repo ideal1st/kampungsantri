@@ -12,16 +12,18 @@
                     <ul class="timeline">
 					{% for testimony in site.testimonies %}
                         <li class="{{ testimony.mode }}">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="{{ site.baseurl }}{{ testimony.img }}" alt="{{ testimony.img-alt }}">
+							<a href="#testimoniModal{{ testimony.modal-id }}" class="portfolio-link" data-toggle="modal">
+							<div class="timeline-image portfolio-hover">
+								<img class="img-circle img-responsive portfolio-hover-content" src="{{ site.url }}{{ testimony.img }}" alt="{{ testimony.img-alt }}">
                             </div>
+							</a>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>{{ testimony.title }}</h4>
                                     <h4 class="subheading">{{ testimony.group }}</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">{{ testimony.content }}</p>
+                                    <p class="text-muted">{{ testimony.description }}</p>
                                 </div>
                             </div>
                         </li>

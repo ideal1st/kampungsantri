@@ -18,20 +18,20 @@
                 <ul class="nav navbar-nav navbar-right page-scroll scrollspy">
 				{% assign links = site.data.nav %}
 				{% for link in links %}
-					{% assign class = nil %}
-					{% if page.url contains link.url %}
+						{% assign class = nil %}
+					{% if page.url == link.url %}
 						{% assign class = 'active' %}
 					{% endif %}
 					{% if link.sublinks %}
 						<li class="dropdown page-scroll {{ class }}">
-							<a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+							<a href="{{ site.url }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
 							<ul class="dropdown-menu {{ class }}">
 								{% for sublink in link.sublinks %}
 									{% if sublink.title == 'separator' %}
 										<li role="separator" class="divider"></li>
 									{% else %}
 										<li>
-											<a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+											<a href="{{ site.url }}{{ sublink.url }}">{{ sublink.title }}</a>
 										</li>
 									{% endif %}
 								{% endfor %}

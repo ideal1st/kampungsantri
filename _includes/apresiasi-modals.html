@@ -1,0 +1,36 @@
+ <!-- Apresiasi Modals -->
+ {% for visit in site.visits %}
+    <div class="portfolio-modal modal fade" id="apresiasiModal{{ visit.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>{{ visit.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="{{ site.url }}{{ visit.img }}" class="img-responsive img-centered" alt="{{ visit.alt }}">
+                            <p>{{ visit.content }}</p>
+                            <!--ul class="list-inline item-details">
+                                <li>Tanggal:
+                                    <strong>{{ fasilita.project-date }}
+                                    </strong>
+                                </li>
+                                <li>Kategori:
+                                    <strong>{{ post.category }}
+                                    </strong>
+                                </li>
+                            </ul-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

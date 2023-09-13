@@ -1,0 +1,32 @@
+ <!-- Facility Modals -->
+ {% for testimony in site.testimonies %}
+    <div class="portfolio-modal modal fade" id="testimoniModal{{ testimony.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+                            <h2>{{ testimony.title }}</h2>
+                            <hr class="star-primary">
+                            <!--img src="{{ testimony.img }}" class="img-responsive img-centered" alt="{{ testimony.alt }}"-->
+                            <p>{{ testimony.content }}</p>
+                            <!--ul class="list-inline item-details">
+                                <li>Tanggal:
+                                    <strong>{{ testimony.project-date }}
+                                    </strong>
+                                </li>
+                            </ul-->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
