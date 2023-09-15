@@ -1,0 +1,23 @@
+<section id="jadwal">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+		  <h2 class="section-heading">{{ page.jadwal.title }}</h2>
+		  <h3 class="section-subheading text-muted">{{ page.jadwal.comment }}</h3>
+		</div>
+	</div>
+{% assign schedule = page.jadwal.steps | sort: "order" %}
+{% for step in schedule %}
+	<div class="row">
+	  <div class="jadwal-container">
+		<div class="grid-container">
+		  <div class="narrative-{{ step.mode }}">
+			<div id="slide-{{ step.mode }}"><p>{{ step.comment }}</p></div>
+			<div id="first"><h3>{{ step.title }}</h3></div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+{% endfor %}
+</div>
+</section>

@@ -24,7 +24,7 @@
 					{% endif %}
 					{% if link.sublinks %}
 						<li class="dropdown page-scroll {{ class }}">
-							<a href="{{ site.url }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+							<a href="{{ site.url }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}<span class="caret"></span></a>
 							<ul class="dropdown-menu {{ class }}">
 								{% for sublink in link.sublinks %}
 									{% if sublink.title == 'separator' %}

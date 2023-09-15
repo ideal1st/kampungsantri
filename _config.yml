@@ -71,6 +71,15 @@ defaults:
     description: 
     layout: default
     permalink: "/fasilitas/:title/"
+- scope:
+    path: ''
+    type: teachers
+  values:
+    jabatan:
+    img:
+    img-alt:
+    layout: post
+    permalink: "/teachers/:title/"
 permalink: pretty
 tagline: Beradab. Berilmu. Berdikari.
 logo:
@@ -78,13 +87,20 @@ logo:
   alt: Pesantren Kampung Santri
 favicon:
   url: "/uploads/favicon.png"
+contact:
+  name: Admin Kampung Santri
+  username: pesantrenkampungsantri
+  phone: +628112445575
 narrative:
   home:
     title: Pesantren Kampung Santri
     bgimg: "/uploads/beranda-header.jpg"
     comment: Putri-putri kita adalah calon pendidik dan pengasuh utama generasi kaum muslimin di masa depan. Pastikan mereka tumbuh dalam indahnya hidayah, nikmatnya ibadah, dan tenteramnya Sunnah.
-    cta-btn: Visi dan Misi Kami
-    cta-url: "#visi-misi"
+    cta-btn: Ahlan wa Sahlan
+    cta-url: selayang
+  selayang:
+    title: Selayang Pandang
+    comment: dari Pengasuh Pesantren
   visi:
     title: Visi
     icon: hands-holding-child
@@ -98,6 +114,9 @@ narrative:
   testimony:
     title: Kata Mereka
     comment: ...tentang Pesantren Kampung Santri.
+  agenda:
+    title: Agenda Harian Santri
+    comment: Setiap detik di sepanjang hidup seorang Muslim hendaknya diisi dengan ibadah kepada Allah 'Azza wa Jalla semata.
   fasilitas:
     title: Fasilitas
     comment: Nikmatnya menuntut ilmu syar'i. Serasa di rumah sendiri.
@@ -115,12 +134,17 @@ narrative:
     comment: Mendidik santri tak ubahnya mendidik anak sendiri. Segalanya, kita upayakan yang terbaik. Karena segalanya, akan dipertanggungjawabkan.
     bgimg: "/uploads/pendidikan-header.jpg"
   jenjang:
-    title: Jenjang
-    comment: "Tuntutlah ilmu dari buaian hingga ke liang lahad."
+    title: Jenjang Pendidikan
+    comment: Tuntutlah ilmu dari buaian hingga ke liang lahad.
+  psb:
+    title: Penerimaan Santri Baru
+    comment: Bila berminat, sila kuatkan niat dan ikuti tahapannya dengan khidmat.
 social:
   - title: facebook
     url: https://fb.me/pesantrenkampungsantri
   - title: instagram
     url: https://instagram.com/pesantrenkampungsantri
   - title: youtube
-    url: https://youtube.com/pesantrenkampungsantri    
+    url: https://youtube.com/pesantrenkampungsantri
+  - title: whatsapp
+    url: https://wa.me/+628112445575

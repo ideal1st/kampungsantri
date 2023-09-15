@@ -1,0 +1,27 @@
+<!-- Selayang Section -->
+    <section id="selayang" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.narrative.selayang.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.narrative.selayang.comment }}</h3>
+                </div>
+            </div>
+	{% assign pandang = site.pages | where: "type", "Selayang" %}
+            {% for page in pandang %}
+            <div class="row content-row">
+                <div class="col-md-6 col-sm-2 portfolio-item {{ page.mode }}">
+                    <img src="{{ site.url }}{{ page.img }}" class="img-responsive img-centered img-fullwidth" alt="{{ page.img-alt }}">
+                    <div class="portfolio-caption">
+                        <h4>{{ page.img-title }}</h4>
+                        <p class="text-muted">{{ page.img-caption }}</p>
+                    </div>
+                </div>
+				<div class="col-md-6 col-sm-2 narasi-jenjang">
+					<h4>{{ page.title }}</h4>
+					<p class="text-muted">{{ page.content }}</p>
+				</div>
+            </div>
+			{% endfor %}            
+        </div>
+    </section>

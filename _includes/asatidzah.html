@@ -8,8 +8,8 @@
                 </div>
             </div>
             <div class="row">
-                {% for teacher in site.teachers %}
-                <div class="col-md-3">
+                {% for teacher in site.teachers | sort: "position" %}
+                <div class="col-lg-2 col-md-3 col-sm-3 asatidzah-row">
                     <div class="team-member">
                         <img src="{{ site.url }}{{ teacher.img }}" class="img-responsive img-circle" alt="{{ teacher.img-alt }}">
                         <h4>{{ teacher.title }}</h4>

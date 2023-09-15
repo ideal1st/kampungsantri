@@ -1,0 +1,63 @@
+<style>
+  .prosedur-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: full;
+    padding: 50px 20px;
+  }
+  .prosedur-stepper {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    max-width: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .stepper-circle {
+    position: relative;
+    margin-top: 35px;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right, green, lightgreen);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .stepper-circle i {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+  }
+  .stepper-line {
+    height: 3px;
+    width: 150px;
+    background-color: darkgreen;
+    margin: 0 5px;
+  }
+</style>
+<div class="prosedur-container">
+  <div class="prosedur-stepper">
+    <div class="stepper-circle">
+      <i class="fa fa-book"></i>
+    </div>
+    <h5>Pendaftaran</h5>
+  </div>
+  <div class="stepper-line"></div>
+  <div class="prosedur-stepper">
+    <div class="stepper-circle"><i class="fa fa-phone"></i></div>
+    <h5>Survey</h5>
+  </div>
+  <div class="stepper-line"></div>
+  <div class="prosedur-stepper">
+    <div class="stepper-circle"><i class="fa fa-book"></i></div>
+    <h5>Pendaftaran</h5>
+  </div>
+  <div class="stepper-line"></div>
+  <div class="prosedur-stepper">
+    <div class="stepper-circle"><i class="fa fa-phone"></i></div>
+    <h5>Pendaftaran</h5>
+  </div>
+</div>

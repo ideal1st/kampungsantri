@@ -1,4 +1,4 @@
-  <footer>
+  <footer class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -10,13 +10,17 @@
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
+						<li>&#64;{{ site.contact.username }}</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="https://wa.me/+6281320414754?text=Assalamu 'alaykum, Media KS. Boleh tanya soal jasa website?">Ingin punya website seperti ini?</a>
+						<li><a href="https://wa.me/{{ site.contact.phone }}?text=Assalamu 'alaykum, Admin KS."><i class="fa fa-phone"></i>
+						</a>
+						</li>
+                        <li><a href="https://wa.me/{{ site.contact.phone }}?text=Assalamu 'alaykum, Admin KS.">{{ site.contact.name }}:</a>
                         </li>
-                        <li><a href="https://wa.me/+6281320414754?text=Assalamu 'alaykum, Media KS. Boleh tanya soal jasa website?">Tim Media KS siap!</a>
+                        <li><a href="https://wa.me/{{ site.contact.phone }}?text=Assalamu 'alaykum, Admin KS.">{{ site.contact.phone }}</a>
                         </li>
                     </ul>
                 </div>

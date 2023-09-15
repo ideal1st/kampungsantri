@@ -1,0 +1,45 @@
+<section id="prosedur" class="bg-light-gray">
+<div class="container">
+  <div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading">{{ page.prosedur.title }}</h2>
+		<h3 class="section-subheading text-muted">{{ page.prosedur.comment }}</h3>
+  </div>
+  <div class="prosedur-container">
+    <div class="prosedur-stepper">
+      <div class="stepper-circle"><i class="fa fa-{{ page.prosedur.first.icon }}"></i></div>
+      <h5>{{ page.prosedur.first.title }}</h5>
+    </div>
+	{% assign procedure = page.prosedur.steps %}
+	{% for step in procedure %}
+    <div class="stepper-line"></div>
+    <div class="prosedur-stepper">
+      <div class="stepper-circle"><i class="fa fa-{{ step.icon }}"></i></div>
+      <h5>{{ step.title }}</h5>
+    </div>
+	{% endfor %}
+  </div>
+
+  <!-- <div class="wrapper option-1 option-1-1">
+    <ol class="c-stepper">
+      <li class="c-stepper__item">
+        <h3 class="c-stepper__title">Konfirmasi Kehadiran</h3>
+        
+      </li>
+      <li class="c-stepper__item">
+        <h3 class="c-stepper__title">Survey</h3>
+        
+      </li>
+      <li class="c-stepper__item">
+        <h3 class="c-stepper__title">Pendaftaran & Wawancara 1</h3>
+        
+      </li>
+      <li class="c-stepper__item">
+        <h3 class="c-stepper__title">Test Masuk & Wawancara 2</h3>
+        
+      </li>
+    </ol>
+  </div> -->
+</div>
+</div>
+</section>

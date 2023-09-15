@@ -5,9 +5,4 @@ position: 1
 jabatan: Pembina Yayasan
 img: "/uploads/ust-rofiq.jpg"
 img-alt: Ust. Rofiq Mustain
-socials:
-  - title: facebook
-    url: https://fb.me/rofiqmustain
-  - title: twitter
-    url: https://twitter.com/rofiqmustain
 ---

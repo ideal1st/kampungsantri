@@ -1,0 +1,623 @@
+<style>
+  /* .aktivitas-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 20px 0;
+  }
+  
+  .right {
+    align-items: start;
+    justify-content: flex-end;
+  }
+
+  .aktivitas-item {
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  
+  .aktivitas-item:hover {
+    border-radius: 50px;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .image-wrapper {
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .image-wrapper:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .image {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .narrative-right {
+    background-color: rgba(110, 185, 45);
+    z-index: 99;
+    padding: 5px 10px 5px 10px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 25px;
+    text-align: center;
+  }
+
+  .narrative-last {
+    background-color: rgba(110, 185, 45);
+    z-index: 99;
+    padding: 5px 10px 5px 10px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-right: 25px;
+    text-align: center;
+  }
+  
+  .narrative-right h3,
+  .narrative-last h3 {
+    color: rgb(40, 70, 20);
+    font-size: 2rem;
+  }
+
+  .narrative-right p,
+  .narrative-last p {
+    color: white;
+    font-size: 1.5rem;
+  } */
+
+  .aktivitas-container {
+    padding: 0 100px;
+  }
+
+  /* SKEW animation */
+
+  .aktivitas-skewed-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 20px 0;
+    position: relative;
+  }
+
+  .right-skewed {
+    align-items: start;
+    justify-content: flex-end;
+  }
+
+  .aktivitas-skewed-item {
+    background-color: white;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #image-skewed-wrapper {
+    -webkit-backface-visibility: hidden; /* the magic ingredient */
+    /* -webkit-transform: skew(16deg, 0); */
+    overflow: hidden;
+    width: 400px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    transition: all ease-in-out 0.3s;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  #image-skewed {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    /* -webkit-transform: skew(-16deg, 0); */
+    position: relative;
+    left: -50px;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #title-skewed-right {
+    background-color: rgba(110, 185, 45);
+    z-index: 99;
+    padding: 5px 10px 5px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5px;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #title-skewed-left {
+    background-color: rgba(110, 185, 45);
+    z-index: 99;
+    padding: 5px 10px 5px 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: -35px;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+  }
+
+  #title-skewed-right h3,
+  #title-skewed-left h3 {
+    color: rgb(40, 70, 20);
+    font-size: 2rem;
+  }
+
+  #narrative-skewed-right {
+    align-self: center;
+    color: rgba(255, 255, 255, 0);
+    transition: all ease-in-out 0.3s;
+    max-width: 400px;
+    height: auto;
+    right: 50px;
+    position: absolute;
+  }
+
+  #narrative-skewed-left {
+    align-self: center;
+    color: rgba(255, 255, 255, 0);
+    transition: all ease-in-out 0.3s;
+    max-width: 400px;
+    height: auto;
+    left: 50px;
+    position: absolute;
+  }
+
+  #narrative-skewed-right p,
+  #narrative-skewed-left p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .aktivitas-skewed-grid:hover > #image-skewed-wrapper,
+  .aktivitas-skewed-grid:hover > #image-skewed-wrapper > #image-skewed {
+    -webkit-transform: skew(0);
+    transition: all ease-in-out 0.3s;
+    width: 500px;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .right-skewed:hover > #image-skewed-wrapper,
+  .right-skewed:hover > #image-skewed-wrapper > #image-skewed {
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+  }
+
+  .aktivitas-skewed-grid:hover > #title-skewed-right {
+    border-radius: 0;
+    margin-left: 0;
+    background: linear-gradient(to right, rgba(110, 185, 45), white);
+    transition: all ease-in-out 0.3s;
+  }
+
+  .aktivitas-skewed-grid:hover > #title-skewed-left {
+    border-radius: 0;
+    margin-right: 0;
+    background: linear-gradient(to left, rgba(110, 185, 45), white);
+    transition: all ease-in-out 0.3s;
+  }
+
+  .aktivitas-skewed-grid:hover > #narrative-skewed-right,
+  .aktivitas-skewed-grid:hover > #narrative-skewed-left {
+    color: black;
+    transition: all ease-in-out 0.3s;
+  }
+
+  @media (max-width: 1160px) {
+    .aktivitas-container {
+      padding: 0 10px;
+    }
+
+    .aktivitas-skewed-grid {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: flex-start;
+      margin: 20px 0;
+      position: relative;
+
+      padding-left: 30px;
+    }
+
+    .right-skewed {
+      align-items: start;
+      justify-content: flex-start;
+    }
+
+    #image-skewed-wrapper {
+      -webkit-backface-visibility: hidden;
+
+      overflow: hidden;
+
+      width: 400px;
+      height: 150px;
+      position: relative;
+      left: 0px;
+      transition: all ease-in-out 0.3s;
+      transform-origin: top;
+    }
+
+    #image-skewed {
+      width: 400px;
+      height: auto;
+      object-fit: cover;
+
+      position: relative;
+      left: 0;
+      transition: all ease-in-out 0.3s;
+    }
+
+    #title-skewed-right,
+    #title-skewed-left {
+      position: absolute;
+      background: rgba(110, 185, 45, 0.7);
+      padding: 0px 10px 5px 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      top: 0;
+      margin-left: 0;
+      text-align: center;
+      transition: all ease-in-out 0.3s;
+    }
+
+    .aktivitas-skewed-grid:hover > #image-skewed-wrapper,
+    .aktivitas-skewed-grid:hover > #image-skewed-wrapper > #image-skewed {
+      -webkit-transform: skew(0);
+      transform: scaleY(1);
+      height: 300px;
+      transition: all ease-in-out 0.3s;
+      width: 400px;
+      left: 0;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 0px;
+    }
+
+    .right-skewed:hover > #image-skewed-wrapper,
+    .right-skewed:hover > #image-skewed-wrapper > #image-skewed {
+      -webkit-transform: skew(0);
+      transform: scaleY(1);
+      height: 300px;
+      transition: all ease-in-out 0.3s;
+      width: 400px;
+      left: 0;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0px;
+    }
+
+    #title-skewed-right h3,
+    #title-skewed-left h3 {
+      color: rgb(40, 70, 20);
+      font-size: 1rem;
+    }
+
+    .aktivitas-skewed-grid:hover > #title-skewed-right,
+    .aktivitas-skewed-grid:hover > #title-skewed-left {
+      border-bottom-right-radius: 10px;
+      background: rgba(110, 185, 45);
+      transition: all ease-in-out 0.3s;
+    }
+
+    #narrative-skewed-right,
+    #narrative-skewed-left {
+      transition: background all ease-in-out 0.3s;
+      width: 380px;
+      max-width: 400px;
+      height: auto;
+      left: 30px;
+      position: absolute;
+      padding: 10px 30px 0;
+    }
+
+    .aktivitas-skewed-grid:hover > #narrative-skewed-right,
+    .aktivitas-skewed-grid:hover > #narrative-skewed-left {
+      color: black;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        white,
+        rgba(255, 255, 255, 0)
+      );
+      /* background: white; */
+
+      width: 400px;
+      text-overflow: ellipsis;
+      max-height: 50%;
+      overflow: hidden;
+      height: auto;
+      z-index: 100;
+      bottom: 0;
+      padding-top: 5px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .aktivitas-container {
+      padding: 0 10px;
+    }
+
+    .aktivitas-skewed-grid {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: flex-start;
+      margin: 20px 0;
+      position: relative;
+      padding-left: 0;
+    }
+
+    .right-skewed {
+      align-items: start;
+      justify-content: flex-start;
+    }
+
+    #image-skewed-wrapper {
+      -webkit-backface-visibility: hidden;
+
+      overflow: hidden;
+
+      width: 300px;
+      height: 100px;
+      position: relative;
+      left: 0px;
+      transition: all ease-in-out 0.3s;
+      transform-origin: top;
+    }
+
+    #image-skewed {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+
+      position: relative;
+      left: 0;
+      transition: all ease-in-out 0.3s;
+    }
+
+    #title-skewed-right,
+    #title-skewed-left {
+      position: absolute;
+      background: rgba(110, 185, 45, 0.7);
+      padding: 0px 10px 5px 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      top: 0;
+      margin-left: 0;
+      text-align: center;
+      transition: all ease-in-out 0.3s;
+    }
+
+    .aktivitas-skewed-grid:hover > #image-skewed-wrapper,
+    .aktivitas-skewed-grid:hover > #image-skewed-wrapper > #image-skewed {
+      -webkit-transform: skew(0);
+      transform: scaleY(1);
+      height: 200px;
+      transition: all ease-in-out 0.3s;
+      width: 300px;
+      left: 0;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 0px;
+    }
+
+    .right-skewed:hover > #image-skewed-wrapper,
+    .right-skewed:hover > #image-skewed-wrapper > #image-skewed {
+      -webkit-transform: skew(0);
+      transform: scaleY(1);
+      height: 200px;
+      transition: all ease-in-out 0.3s;
+      width: 300px;
+      left: 0;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 0px;
+    }
+
+    #title-skewed-right h3,
+    #title-skewed-left h3 {
+      color: rgb(40, 70, 20);
+      font-size: 1rem;
+    }
+
+    .aktivitas-skewed-grid:hover > #title-skewed-right,
+    .aktivitas-skewed-grid:hover > #title-skewed-left {
+      border-bottom-right-radius: 10px;
+      background: rgba(110, 185, 45);
+      transition: all ease-in-out 0.3s;
+    }
+
+    #narrative-skewed-right,
+    #narrative-skewed-left {
+      transition: background all ease-in-out 0.3s;
+      width: 280px;
+      max-width: 283px;
+      height: auto;
+      left: 0;
+      position: absolute;
+      padding: 10px 30px 0;
+    }
+
+    .aktivitas-skewed-grid:hover > #narrative-skewed-right,
+    .aktivitas-skewed-grid:hover > #narrative-skewed-left {
+      color: black;
+      background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        white,
+        rgba(255, 255, 255, 0)
+      );
+
+      /* transition: all ease-in-out 0.3s; */
+
+      width: 300px;
+      text-overflow: ellipsis;
+      max-height: 50%;
+      overflow: hidden;
+      height: auto;
+      z-index: 100;
+      bottom: 0;
+      padding-top: 5px;
+    }
+  }
+</style>
+<div class="judul-wrapper">
+  <h3 style="color: rgb(0, 125, 0)">Aktivitas Santri</h3>
+</div>
+<div class="aktivitas-container">
+  <!-- <div class="aktivitas-grid">
+    <div class="aktivitas-item">
+      <div class="image-wrapper">
+        <img
+          src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimgfirst }}"
+          alt="Image 1"
+          class="image"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="aktivitas-grid right">
+    <div class="aktivitas-item">
+      <div class="image-wrapper">
+        <img
+          src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimglast }}"
+          alt="Image 2"
+          class="image"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="aktivitas-grid">
+    <div class="aktivitas-item">
+      <div class="image-wrapper">
+        <img
+          src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimgfirst }}"
+          alt="Image 1"
+          class="image"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="aktivitas-grid right">
+    <div class="aktivitas-item">
+      <div class="image-wrapper">
+        <img
+          src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimglast }}"
+          alt="Image 2"
+          class="image"
+        />
+      </div>
+    </div>
+  </div> -->
+  <div class="aktivitas-skewed-grid">
+    <div id="image-skewed-wrapper">
+      <img
+        src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimgfirst }}"
+        alt="Image 1"
+        id="image-skewed"
+      />
+    </div>
+    <div id="title-skewed-right">
+      <h3>KBM</h3>
+    </div>
+    <div id="narrative-skewed-right">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </p>
+    </div>
+  </div>
+  <div class="aktivitas-skewed-grid right-skewed">
+    <div id="narrative-skewed-left">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </p>
+    </div>
+    <div id="title-skewed-left">
+      <h3>Halaqah</h3>
+    </div>
+    <div id="image-skewed-wrapper">
+      <img
+        src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimglast }}"
+        alt="Image 1"
+        id="image-skewed"
+      />
+    </div>
+  </div>
+  <div class="aktivitas-skewed-grid">
+    <div id="image-skewed-wrapper">
+      <img
+        src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimgfirst }}"
+        alt="Image 1"
+        id="image-skewed"
+      />
+    </div>
+    <div id="title-skewed-right">
+      <h3>Muhadharah</h3>
+    </div>
+    <div id="narrative-skewed-right">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </p>
+    </div>
+  </div>
+  <div class="aktivitas-skewed-grid right-skewed">
+    <div id="narrative-skewed-left">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </p>
+    </div>
+    <div id="title-skewed-left">
+      <h3>Keasramaan</h3>
+    </div>
+    <div id="image-skewed-wrapper">
+      <img
+        src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimglast }}"
+        alt="Image 1"
+        id="image-skewed"
+      />
+    </div>
+  </div>
+  <div class="aktivitas-skewed-grid">
+    <div id="image-skewed-wrapper">
+      <img
+        src="{{ site.baseurl }}{{ site.narrative.psb.jadwalimgfirst }}"
+        alt="Image 1"
+        id="image-skewed"
+      />
+    </div>
+    <div id="title-skewed-right">
+      <h3>Ekstrakulikuler</h3>
+    </div>
+    <div id="narrative-skewed-right">
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </p>
+    </div>
+  </div>
+</div>

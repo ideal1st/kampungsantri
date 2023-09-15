@@ -2,7 +2,7 @@
 title: Kajian Ust. Syafiq
 date: 2023-09-12 07:00:00 +07:00
 position: 1
-subtitle: "Gelas-Gelas Kaca"
+subtitle: "Peran Wanita dalam Islam"
 img: "/uploads/kajian-ust-syafiq.jpg"
 alt: Ust. Syafiq Riza Basalamah
 quote: Kampung Santri menawarkan pendidikan Islam berbasis tauhid dan Sunnah dengan sentuhan yang berbeda.

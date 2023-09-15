@@ -11,10 +11,15 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
 					{% for testimony in site.testimonies %}
-                        <li class="{{ testimony.mode }}">
+                        <li class="{{ testimony.mode }} portfolio-item">
 							<a href="#testimoniModal{{ testimony.modal-id }}" class="portfolio-link" data-toggle="modal">
-							<div class="timeline-image portfolio-hover">
-								<img class="img-circle img-responsive portfolio-hover-content" src="{{ site.url }}{{ testimony.img }}" alt="{{ testimony.img-alt }}">
+							<div class="timeline-image">
+							<div class="portfolio-hover">
+								<div class="portfolio-hover-content">
+									<i class="fa fa-plus fa-3x"></i>
+								</div>
+							</div>
+								<img class="img-circle img-responsive" src="{{ site.url }}{{ testimony.img }}" alt="{{ testimony.img-alt }}">					
                             </div>
 							</a>
                             <div class="timeline-panel">
