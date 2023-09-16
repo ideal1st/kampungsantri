@@ -23,7 +23,7 @@
 						{% assign class = 'active' %}
 					{% endif %}
 					{% if link.sublinks %}
-						<li class="dropdown page-scroll {{ class }}">
+						<li class="dropdown {{ class }}">
 							<a href="{{ site.url }}{{ link.url }}" class="dropdown-toggle" id="navbar-dropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }}<span class="caret"></span></a>
 							<ul class="dropdown-menu {{ class }}">
 								{% for sublink in link.sublinks %}
@@ -31,15 +31,15 @@
 										<li role="separator" class="divider"></li>
 									{% else %}
 										<li>
-											<a href="{{ site.url }}{{ sublink.url }}">{{ sublink.title }}</a>
+											<a class="page-scroll" href="{{ site.url }}{{ sublink.url }}">{{ sublink.title }}</a>
 										</li>
 									{% endif %}
 								{% endfor %}
 							</ul>
 						</li>
 						{% else %}
-						<li class="page-scroll {{ class }}">
-							<a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+						<li class="{{ class }}">
+							<a class="page-scroll" href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
 						</li>
 					{% endif %}
 				{% endfor %}	

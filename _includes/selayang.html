@@ -10,14 +10,14 @@
 	{% assign pandang = site.pages | where: "type", "Selayang" %}
             {% for page in pandang %}
             <div class="row content-row">
-                <div class="col-md-6 col-sm-2 portfolio-item {{ page.mode }}">
+                <div class="col-md-6 col-sm-6 portfolio-item {{ page.mode }}">
                     <img src="{{ site.url }}{{ page.img }}" class="img-responsive img-centered img-fullwidth" alt="{{ page.img-alt }}">
                     <div class="portfolio-caption">
                         <h4>{{ page.img-title }}</h4>
                         <p class="text-muted">{{ page.img-caption }}</p>
                     </div>
                 </div>
-				<div class="col-md-6 col-sm-2 narasi-jenjang">
+				<div class="col-md-6 col-sm-6 narasi-jenjang">
 					<h4>{{ page.title }}</h4>
 					<p class="text-muted">{{ page.content }}</p>
 				</div>

@@ -1,10 +1,10 @@
   <footer class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="footer-col col-md-4">
                     <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-4">
+                <div class="footer-col col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
@@ -13,7 +13,7 @@
 						<li>&#64;{{ site.contact.username }}</li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="footer-col col-md-4">
                     <ul class="list-inline quicklinks">
 						<li><a href="https://wa.me/{{ site.contact.phone }}?text=Assalamu 'alaykum, Admin KS."><i class="fa fa-phone"></i>
 						</a>

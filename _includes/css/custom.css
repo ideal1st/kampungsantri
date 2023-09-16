@@ -99,9 +99,9 @@ header.page-header {
 }
 
 header .intro-text {
-    padding-top: 150px;
-    padding-bottom: 50px;
+    padding: 100px 50px;
 	background-color: rgba(0,0,0,0.6);
+	border-radius: 0 20px;
 }
 header .intro-text .intro-judul {
     margin-bottom: 25px;
@@ -176,11 +176,14 @@ header .btn {
 #testimoni .container {
   color: #fff;
 }
-#testimoni .portfolio-item .portfolio-link {
+#testimoni .portfolio-item .portfolio-link, #agenda .portfolio-item .portfolio-link {
     display: block;
     position: absolute;
     margin: 0 auto;
     max-width: 400px;
+}
+#testimoni .portfolio-item .portfolio-link .portfolio-hover, #agenda .portfolio-item .portfolio-link .portfolio-hover {
+	border-radius: 50%;
 }
 
 .portfolio-item {
@@ -216,7 +219,7 @@ header .btn {
     top: 50%;
     width: 100%;
     height: 20px;
-    margin-top: -12px;
+    margin-top: -18px;
     text-align: center;
     font-size: 20px;
     color: #fff;
@@ -309,13 +312,13 @@ header .btn {
 	#testimoni .timeline-image img:hover {
 		opacity:0.2;
 	}
-	#testimoni .portfolio-item .portfolio-link {
+	#testimoni .portfolio-item .portfolio-link, #agenda .portfolio-item .portfolio-link {
 		display: block;
 		position: relative;
 		margin: 0 auto;
 		max-width: 400px;
 	}
-	#testimoni .portfolio-item .portfolio-link .portfolio-hover {
+	#testimoni .portfolio-item .portfolio-link .portfolio-hover, #agenda .portfolio-item .portfolio-link .portfolio-hover {
 		position: absolute;
 		width: 100%;
 		height: 100%;
@@ -327,10 +330,10 @@ header .btn {
 		background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
 		border-radius: 50%;
 	}
-	#testimoni .portfolio-item .portfolio-link .portfolio-hover:hover {
+	#testimoni .portfolio-item .portfolio-link .portfolio-hover:hover, #agenda .portfolio-item .portfolio-link .portfolio-hover:hover {
 		opacity: 1;
 	}
-	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content, #agenda .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
 		position: absolute;
 		top: 50%;
 		width: 100%;
@@ -340,8 +343,8 @@ header .btn {
 		font-size: 20px;
 		color: #fff;
 	}
-	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-		margin-top: -25%;
+	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i, #agenda .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+		margin-top: -50%;
 	}	
 	#apresiasi .img-right, #jenjang .img-right {
 	float: right;
@@ -840,7 +843,11 @@ li.requirement-item {
 	font-size: 24px;
 	line-height: 48px;
 }
-footer .copyright, footer .quicklinks {
+.footer-col {
+	padding: 15px 0;
+}
+.footer-col span.copyright, .footer-col ul.quicklinks {
 	font-size: 18px;
 	color: #{{ site.data.template.color.secondary-dark }};
+	line-height: 30px;
 }

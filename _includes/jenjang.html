@@ -10,7 +10,7 @@
 	{% assign jenjang = site.schools | sort:'modal-id' %}
             {% for school in jenjang %}
             <div class="row content-row" id="{{ school.link }}">
-                <div class="col-md-6 col-sm-2 portfolio-item {{ school.mode }}">
+                <div class="col-md-6 col-sm-6 portfolio-item {{ school.mode }}">
                     <a href="#jenjangModal{{ school.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -24,7 +24,7 @@
                         <p class="text-muted">{{ school.subtitle }}</p>
                     </div>
                 </div>
-				<div class="col-md-6 col-sm-2 narasi-jenjang">
+				<div class="col-md-6 col-sm-6 narasi-jenjang">
 					<h4>{{ school.alt }}</h4>
 					<p class="text-muted">{{ school.narrative }}</p>
 				</div>

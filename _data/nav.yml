@@ -1,6 +1,8 @@
 - title: Beranda
   url: /
   sublinks:
+    - title: Selayang Pandang
+      url: /#selayang
     - title: Visi dan Misi
       url: /#visi-misi
     - title: separator
