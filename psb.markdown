@@ -10,6 +10,10 @@ jadwal:
   title: Jadwal Penerimaan Santri Baru
   comment: Tahun Akademik 2024&sol;2025
   steps:
+  - title: Tes Tulis
+    order: 3
+    mode: last
+    comment: 23 September 2023
   - title: Pendaftaran
     order: 2
     mode: first

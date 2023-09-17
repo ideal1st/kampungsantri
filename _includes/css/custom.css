@@ -287,6 +287,11 @@ header .btn {
 	margin: 0px 10px;
 }
 
+#agenda .agenda-icon {
+	font-size: 30px;
+	padding-top: 30%;
+}
+
 
 @media(min-width: 768px) {
 	.navbar-default.navbar-shrink .navbar-brand img {
@@ -345,13 +350,17 @@ header .btn {
 	}
 	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i, #agenda .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
 		margin-top: -50%;
-	}	
+	}
 	#apresiasi .img-right, #jenjang .img-right {
 	float: right;
+	}
 }
 
-}
-
+@media(min-width:992px){
+	#agenda .agenda-icon {
+		font-size: 60px;
+		padding-top: 30%;
+	}	
 }
 
 ::selection {
@@ -509,7 +518,7 @@ header .btn {
     margin-top: 10px;
   }
 
-  @media (max-width: 786px) {
+  @media (max-width: 768px) {
 	.jadwal-container {
 	  padding: none;
 	}

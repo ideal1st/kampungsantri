@@ -1,0 +1,42 @@
+<!-- Agenda Section -->
+    <section id="agenda">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.narrative.agenda.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.narrative.agenda.comment }}</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+					{% for agenda in site.agendas %}
+                        <li class="{{ agenda.mode }} portfolio-item">
+							<a href="#agendaModal{{ agenda.modal-id }}" class="portfolio-link" data-toggle="modal">
+							<div class="timeline-image">
+								<i class="fa fa-{{ agenda.icon }} fa-3x fa-inverse agenda-icon img-circle"></i>					
+                            </div>
+							</a>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>{{ agenda.title }}</h4>
+                                    <h4 class="subheading">{{ agenda.time }}</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">{{ agenda.description }}</p>
+                                </div>
+                            </div>
+                        </li>
+					{% endfor %}
+                        <li>
+                            <div class="timeline-image">
+                                <h4>Mondok?
+                                    <br>Di KS
+                                    <br>aja!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
