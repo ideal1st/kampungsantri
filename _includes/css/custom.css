@@ -263,7 +263,7 @@ header .btn {
 	color: #fff;
 }
 
-#apresiasi .content-row, #jenjang .content-row {
+#apresiasi .content-row, #jenjang .content-row, #aktivitas .content-row {
 	padding-bottom: 80px;
 }
 #apresiasi .portfolio-item .portfolio-caption, #jenjang .portfolio-item .portfolio-caption, #selayang .portfolio-item .portfolio-caption {
@@ -364,10 +364,6 @@ header .btn {
 		position: relative;
 		margin: 0 auto;
 		max-width: 100%;
-	}
-	
-	#aktivitas .row {
-		padding-bottom: 100px;
 	}
 }
 
