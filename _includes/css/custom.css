@@ -659,14 +659,14 @@ header .btn {
     justify-content: center;
     align-items: center;
     width: full;
-    padding: 20px 20px 50px;
+    padding: 20px 50px;
   }
   .prosedur-stepper {
     display: flex;
     flex-direction: column;
     padding: 5px 0;
-    max-width: 150px;
-    min-width: 120px;
+    max-width: 100px;
+    min-width: 50px;
     justify-content: center;
     align-items: center;
   }
@@ -700,12 +700,12 @@ header .btn {
   .stepper-circle i {
     position: absolute;
     color: white;
-    font-size: 50px;
+    font-size: 48px;
   }
   .stepper-line {
     height: 3px;
     width: 150px;
-    background-color: darkgreen;
+    background-color: #{{ site.data.template.color.primary }};
     margin: 0 5px;
   }
   .prosedur-stepper h5 {
@@ -716,13 +716,13 @@ header .btn {
     .prosedur-container {
       flex-direction: column;
       justify-content: center;
-	  padding-right: 120px;
+	  padding: 20px 240px 20px 0px;
     }
 
     .prosedur-stepper {
       flex-direction: row;
       padding: 0 0 0 0;
-      min-width: 150px;
+      min-width: 50px;
       justify-content: center;
     }
     .stepper-circle {
@@ -732,7 +732,7 @@ header .btn {
 	  align-items: center;
     }
     .stepper-circle i {
-      font-size: 64px;
+      font-size: 48px;
     }
 
     .stepper-line {
@@ -745,7 +745,7 @@ header .btn {
       font-size: 1.5em;
 	  text-align: center;
 	  padding-top: 0px;
-	  padding-left: 240px;
+	  padding-left: 180px;
 	  position: relative;
     }
   }
