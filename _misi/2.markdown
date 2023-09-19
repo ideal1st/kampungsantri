@@ -1,7 +1,7 @@
 ---
 title: '2'
 date: 2023-08-30 07:05:00 +07:00
-icon: house-chimney-user
+icon: 2
 ---
 
 Menjadi rumah yang nyaman bagi penghafal Al-Qur'an dan penuntut ilmu syar'i.

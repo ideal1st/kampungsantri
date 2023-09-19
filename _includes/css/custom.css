@@ -125,9 +125,10 @@ header .btn {
 }
 	
 
-#visi-misi h3.misi, h3.visi {
+#visi-misi .misi p, #visi-misi h3.visi, #budaya .misi p {
   padding-top: 20px;
-  line-height: 20px;
+  line-height: 40px;
+  font-size: 1.5em;
 }
 
 #visi-misi .col-md-4 {
@@ -292,6 +293,9 @@ header .btn {
 	padding-top: 30%;
 }
 
+#jadwal .tanggal {
+	font-size: 60px;
+}
 
 @media(min-width: 768px) {
 	.navbar-default.navbar-shrink .navbar-brand img {
@@ -351,8 +355,19 @@ header .btn {
 	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i, #agenda .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
 		margin-top: -50%;
 	}
-	#apresiasi .img-right, #jenjang .img-right {
+	#apresiasi .img-right, #jenjang .img-right, #aktivitas .img-right {
 	float: right;
+	}
+	
+	#aktivitas .portfolio-item .portfolio-link, #aktivitas .portfolio-item .portfolio-caption {
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	#aktivitas .row {
+		padding-bottom: 100px;
 	}
 }
 
@@ -693,8 +708,11 @@ header .btn {
     background-color: darkgreen;
     margin: 0 5px;
   }
+  .prosedur-stepper h5 {
+    max-width: 100px;
+  }
 
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     .prosedur-container {
       flex-direction: column;
       justify-content: center;
@@ -724,7 +742,7 @@ header .btn {
     }
 
     .prosedur-stepper h5 {
-      font-size: 1.2em;
+      font-size: 1.5em;
 	  text-align: center;
 	  padding-top: 0px;
 	  padding-left: 240px;
@@ -847,6 +865,9 @@ header .btn {
 /* @ideal1st */
 h4.requirement-heading {
 	font-size: 24px;
+}
+ul.requirement-list {
+	text-align: left;
 }
 li.requirement-item {
 	font-size: 24px;

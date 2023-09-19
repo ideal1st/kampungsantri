@@ -1,7 +1,7 @@
 ---
 title: '3'
 date: 2023-08-30 07:06:00 +07:00
-icon: handshake-simple
+icon: 3
 ---
 
 Menjadi mitra keluarga dalam menyelenggarakan pendidikan yang amanah, profesional, dan ramah anak.

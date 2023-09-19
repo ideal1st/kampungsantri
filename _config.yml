@@ -6,6 +6,10 @@ collections:
     title: Agendas
     output: true
     alt-name: Agenda Kegiatan Harian Santri
+  aktivitas:
+    title: Aktivitas
+    output: true
+    alt-name: Galeri KS
   cultures:
     title: Cultures
     output: true

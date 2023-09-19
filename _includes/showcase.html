@@ -1,0 +1,29 @@
+<!-- Showcase Section -->
+    <section id="aktivitas" class="bg-light-gray">
+        <div class="container">
+	{% assign gallery = site.aktivitas | sort: "position" %}
+            {% for aktivita in gallery %}
+            <div class="row content-row" id="{{ aktivita.link }}">
+                <div class="col-md-6 col-sm-6 portfolio-item {{ aktivita.mode }}">
+                    <a href="#aktivitasModal{{ aktivita.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{ site.url }}{{ aktivita.img }}" class="img-responsive img-centered img-fullwidth" alt="{{ aktivita.alt }}">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ aktivita.title }}</h4>
+                        <p class="text-muted">{{ aktivita.subtitle }}</p>
+                    </div>
+                </div>
+				<div class="col-md-6 col-sm-6 narasi-jenjang">
+					<h4>{{ aktivita.alt }}</h4>
+					<p class="text-muted">{{ aktivita.narrative }}</p>
+					<a href="#aktivitasModal{{ aktivita.modal-id }}" class="btn btn-xl" data-toggle="modal">Lebih lanjut</a>
+				</div>
+            </div>
+			{% endfor %}            
+        </div>
+    </section>

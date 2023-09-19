@@ -3,27 +3,25 @@ title: Penerimaan Santri Baru
 date: 2023-08-27 13:31:00 +07:00
 type: Agenda
 alias: PSB
-layout: psb
+layout: psb2
 bgimg: "/uploads/8.jpg"
 comment: Bila berminat, sila kuatkan niat dan ikuti tahapannya dengan khidmat.
 jadwal:
-  title: Jadwal Penerimaan Santri Baru
+  title: Mekanisme PSB
   comment: Tahun Akademik 2024&sol;2025
   steps:
-  - title: Tes Tulis
-    order: 3
-    mode: last
-    comment: 23 September 2023
-  - title: Pendaftaran
-    order: 2
-    mode: first
-    comment: Mulai 23 September 2023
-  - title: Survei
-    order: 1
-    mode: last
-    comment: Mulai 1 September 2023
+  - title: "Pembukaan PSB: 23 September 2023"
+    items:
+    - id: 1
+      comment: "Tahapan seleksi mulai survei hingga wawancara II dituntaskan dalam hari yang sama."
+      note: "(One-day service; silakan lihat bagan Prosedur di bawah.)"
+    - id: 2
+      comment: "Layanan PSB diselenggarakan sejak tanggal di atas sampai kuota terpenuhi, setiap hari kerja."
+      note: "(buka setiap hari, pukul 07:30 - 11:30)"
+    - id: 3
+      comment: "Keputusan hasil seleksi diumumkan setiap hari Senin."
 prosedur:
-  title: Prosedur Pendaftaran
+  title: Prosedur PSB
   comment: Ikuti alurnya, nikmati prosesnya, dan serahkan hasilnya kepada Allah semata.
   first:
     title: Konfirmasi Kehadiran
@@ -32,12 +30,14 @@ prosedur:
   - title: Survei
     icon: magnifying-glass-location
   - title: Wawancara I
-    icon: microphone-lines
+    icon: comment
   - title: Pendaftaran
-    icon: list-check
+    icon: gift
   - title: Tes Tulis
     icon: list-ol
   - title: Wawancara II
+    icon: comments
+  - title: Keputusan Hasil
     icon: gavel
 persyaratan:
   title: Persyaratan Pendaftaran
