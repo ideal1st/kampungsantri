@@ -14,6 +14,14 @@
                         <div class="modal-body">
                             <h2>{{ school.title }}</h2>
                             <hr class="star-primary">
+		{% if school.slider == 1 %}
+		<div class="row">
+		<h4 class="requirement-heading btn-xl">{{ school.slider-title }}</h4>
+		{% include carousel.html height="540" unit="px" duration="3" number=school.modal-id %}
+		</div>
+		{% else %}
+		<div class="row"></div>
+		{% endif %}
 		<div class="row">
 		{% assign subject = school.mapels %}
 		{% for mapel in subject %}

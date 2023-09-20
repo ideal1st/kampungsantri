@@ -1,4 +1,4 @@
-<section id="jadwal">
+<section id="mekanisme">
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12 text-center">
@@ -9,13 +9,20 @@
 		{% assign mechanism = page.jadwal.steps %}
 	<div class="row">
 		{% for step in mechanism %}
-			<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<h4 class="requirement-heading btn-xl">{{ step.title }}</h4>
 				<ul class="requirement-list">
 				{% for item in step.items | sort: "id" %}
 					<li class="requirement-item"><b>{{ item.comment }}</b> <i>{{ item.note }}</i></li>
 				{% endfor %}
 				</ul>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 portfolio-item">
+				<img src="{{ site.url }}{{ step.img }}" class="img-responsive img-centered img-fullwidth">
+                <div class="portfolio-caption">
+                    <h4>{{ step.img-title }}</h4>
+                    <p class="text-muted">{{ step.img-caption }}</p>
+                </div>
 			</div>
 		{% endfor %}
 	</div>

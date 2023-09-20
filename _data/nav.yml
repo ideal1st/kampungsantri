@@ -35,8 +35,8 @@
 - title: PSB
   url: /psb/
   sublinks:
-    - title: Jadwal
-      url: /psb/#jadwal
+    - title: Mekanisme
+      url: /psb/#mekanisme
     - title: separator
     - title: Prosedur
       url: /psb/#prosedur

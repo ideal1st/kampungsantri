@@ -16,4 +16,14 @@ carousels:
     - url: "/uploads/tahfizh-2.jpg"
     - url: "/uploads/tahfizh-3.jpg"
     - url: "/uploads/tahfizh-4.jpg"
+  - images:
+    - url: "/uploads/asrama-1.jpg"
+    - url: "/uploads/asrama-2.jpg"
+    - url: "/uploads/asrama-3.jpg"
+    - url: "/uploads/asrama-4.jpg"
+  - images:
+    - url: "/uploads/ekskul-1.jpg"
+    - url: "/uploads/ekskul-2.jpg"
+    - url: "/uploads/ekskul-3.jpg"
+    - url: "/uploads/ekskul-4.jpg"
 ---

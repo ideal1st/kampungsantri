@@ -11,6 +11,9 @@ jadwal:
   comment: Tahun Akademik 2024&sol;2025
   steps:
   - title: "Pembukaan PSB: 23 September 2023"
+    img: "/uploads/mekanisme.jpg"
+    img-title: Suasana Survei Dadakan
+    img-caption: di Ruang Tata Usaha Pesantren Kampung Santri
     items:
     - id: 1
       comment: "Tahapan seleksi mulai survei hingga wawancara II dituntaskan dalam hari yang sama."

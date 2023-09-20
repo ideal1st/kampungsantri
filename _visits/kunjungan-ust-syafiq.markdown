@@ -5,7 +5,7 @@ position: 1
 subtitle: "Peran Wanita dalam Islam"
 img: "/uploads/kajian-ust-syafiq.jpg"
 alt: Ust. Syafiq Riza Basalamah
-quote: Kampung Santri menawarkan pendidikan Islam berbasis tauhid dan Sunnah dengan sentuhan yang berbeda.
+quote: "Anak wanita yang belajar harus tahu ketika dia menikah dia menjadi apa. Cita-cita wanita yang paling tinggi adalah menjadi seorang ibu. Karena ibu yg mencetak presiden, panglima perang, dan menteri-menteri. Maka, jadilah para ibu yg mencetak generasi masa depan."
 modal-id: 1
 ---
-Lebih rinci, silakan datang sendiri.
+<iframe width="100%" height="540" src="https://www.youtube.com/embed/nMqGsDhBtS8?si=_GSGlr3hjbqcW2eX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

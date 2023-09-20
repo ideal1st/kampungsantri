@@ -8,6 +8,8 @@ alt: Sekolah Dasar Islam Terpadu
 narrative: SDIT Imam Syafi'i Pesantren Kampung Santri adalah sekolah yang mengimplementasikan pendidikan akhlak kepada para siswa-siswinya dalam pergaulan hidup sehari-hari baik di lingkungan sekolah maupun di lingkungan rumahnya.
 modal-id: 1
 link: sdit
+slider: 1
+slider-title: Galeri Aktivitas
 lulusan:
   title: "Target Lulusan SD"
   items:

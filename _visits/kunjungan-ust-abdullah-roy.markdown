@@ -2,11 +2,11 @@
 title: Kajian Ust. Abdullah Roy
 date: 2023-09-12 15:00:00 +07:00
 position: 2
-subtitle: "Halaqah Silsilah 'Ilmiyyah"
+subtitle: "Aqidah Ahlussunnah terhadap Ahlulbait Nabi"
 img: "/uploads/kajian-ust-abdullah-roy.png"
 alt: Ust. Abdullah Roy
-quote: Santriwati di sini bukan hanya belajar aqidah dari kitab-kitab yang lurus, namun juga dari para asatidzah yang terus dijaga kelurusan manhaj aqidahnya.
+quote: "Salah satu penyimpangan aqidah adalah pemahaman tentang Ahlulbait. Ada di antara mereka yang ghuluw, berlebihan terhadap keluarga Rasul dari apa yg disyariatkan. Mereka pun terjerumus ke dalam berlebihan di dalam agama. Dan di sisi yg lain ada sebagian orang yang justru malah memusuhi, membenci keluarga nabi mereka sendiri."
 modal-id: 2
 mode: img-right
 ---
-Aqidah Ahlussunnah wal Jama'ah terhadap Ahlul Bait.
+<iframe width="100%" height="540" src="https://www.youtube.com/embed/8lywaaHOLA4?si=XkR7C-uuRhN5Xo3K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
