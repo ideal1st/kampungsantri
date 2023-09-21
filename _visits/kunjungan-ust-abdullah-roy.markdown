@@ -5,7 +5,7 @@ position: 2
 subtitle: "Aqidah Ahlussunnah terhadap Ahlulbait Nabi"
 img: "/uploads/kajian-ust-abdullah-roy.png"
 alt: Ust. Abdullah Roy
-quote: "Salah satu penyimpangan aqidah adalah pemahaman tentang Ahlulbait. Ada di antara mereka yang ghuluw, berlebihan terhadap keluarga Rasul dari apa yg disyariatkan. Mereka pun terjerumus ke dalam berlebihan di dalam agama. Dan di sisi yg lain ada sebagian orang yang justru malah memusuhi, membenci keluarga nabi mereka sendiri."
+quote: "Salah satu penyimpangan aqidah adalah pemahaman tentang Ahlulbait. Ada di antara mereka yang ghuluw, berlebihan terhadap keluarga Rasul dari apa yang disyariatkan. Mereka pun terjerumus ke dalam berlebihan di dalam agama. Dan di sisi yang lain ada sebagian orang yang justru malah memusuhi, membenci keluarga nabi mereka sendiri."
 modal-id: 2
 mode: img-right
 ---

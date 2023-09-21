@@ -263,7 +263,7 @@ header .btn {
 	color: #fff;
 }
 
-#apresiasi .content-row, #jenjang .content-row, #aktivitas .content-row {
+#apresiasi .content-row, #jenjang .content-row, #aktivitas .content-row, .agenda-slider {
 	padding-bottom: 80px;
 }
 #apresiasi .portfolio-item .portfolio-caption, #jenjang .portfolio-item .portfolio-caption, #selayang .portfolio-item .portfolio-caption, #mekanisme .portfolio-item .portfolio-caption {
