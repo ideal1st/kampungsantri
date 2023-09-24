@@ -5,7 +5,7 @@ position: 1
 subtitle: Imam Syafi'i
 img: "/uploads/sdit.jpg"
 alt: Sekolah Dasar Islam Terpadu
-narrative: SDIT Imam Syafi'i Pesantren Kampung Santri adalah sekolah yang mengimplementasikan pendidikan akhlak kepada para siswa-siswinya dalam pergaulan hidup sehari-hari baik di lingkungan sekolah maupun di lingkungan rumahnya.
+narrative: "&ldquo;Aku juara. Kamu juara. Kita semua juara.&rdquo;<br/><br/>Berbekal motto ini, SDIT Imam Syafi'i senantiasa mengupayakan segenap proses pembelajaran yang berorientasi pada kesuksesan bersama. Dengan mengurangi atmosfer kompetisi, SDIT Imam Syafi'i berharap akan tumbuh semangat kolaborasi dan karakter kooperatif dalam jiwa para santri. Sebab, keshalihan pribadi tidak banyak mengubah apapun bila tak diiringi keshalihan jama'i."
 modal-id: 1
 link: sdit
 slider: 1

@@ -5,7 +5,7 @@ position: 2
 subtitle: Imam Syafi'i
 img: "/uploads/smpit.jpg"
 alt: Sekolah Menengah Pertama Islam Terpadu
-narrative: Pendidikan merupakan hal yang penting untuk dimiliki generasi muda, khususnya para akhawat muslimah. Hal ini bertujuan untuk membentuk suatu perilaku yang baik pada generasi muda muslim, yang berdasarkan dengan aqidah Islam serta ketauhidannya kepada Allah 'Azza wa Jalla, bergaul dengan teman yang mempunyai akhlak yang baik pula, memperdalam agama dengan berbagai cara, misalnya mempelajari hadits-hadits yang berkaitan dengan hukum-hukum Islam agar pengetahuannya bertambah semakin luas.
+narrative: Menghantarkan putri-putri muslimah kita dari masa kanak-kanak menuju masa dewasa bukanlah pekerjaan ringan. Ada banyak adaptasi yang perlu mereka hadapi dan tentunya kita maklumi. Berangkat dari kesadaran ini, SMPIT Imam Syafi'i menyusun program kurikuler dan kokurikulernya sedemikian rupa agar dapat mengakomodasi baik kebutuhan akademis santri tingkat SMP secara umum maupun kebutuhan psikologis muslimah usia pra-remaja hingga remaja awal secara khusus.
 modal-id: 2
 mode: img-right
 link: smpit
