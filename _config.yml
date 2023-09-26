@@ -92,14 +92,14 @@ logo:
 favicon:
   url: "/uploads/favicon.png"
 contact:
-  name: Admin Kampung Santri
+  name: Layanan Kampung Santri
   username: pesantrenkampungsantri
-  phone: +628112445575
+  phone: 628112445575
 narrative:
   home:
     title: Pesantren Kampung Santri
     bgimg: "/uploads/beranda-header.jpg"
-    comment: Putri-putri kita adalah calon pendidik dan pengasuh utama generasi kaum muslimin di masa depan. Pastikan mereka tumbuh dalam indahnya hidayah, nikmatnya ibadah, dan tenteramnya Sunnah.
+    comment: "Bekali mereka dengan pendidikan terbaik untuk masa depan gemilang.<br/><br/>#AyoKeKampungSantri<br/><br/>Pesantren Kampung Santri hadir untuk menjadi pilihan pendidikan Islam sesuai manhaj Ahlussunnah wal Jama'ah. Dengan kurikulum yang khas, Pesantren Kampung Santri selalu berupaya mewujudkan lulusan yang bertauhid, berkarakter, berwawasan global, dan beramal shalih sesuai tuntunan Al-Qur'an dan Sunnah."
     cta-btn: Ahlan wa Sahlan
     cta-url: selayang
   selayang:
@@ -108,16 +108,16 @@ narrative:
   visi:
     title: Visi
     icon: ussunnah
-    comment: Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang beradab, berilmu, dan berdikari.
+    comment: "Menjadi pesantren pilihan yang unggul dalam mendidik generasi yang bertauhid, berkarakter, berwawasan global, dan beramal shalih sesuai tuntunan Al-Qur'an dan Sunnah."
   misi:
     title: Misi
     comment: 
   asatidzah:
-    title: Asatidzah
-    comment: Bersama Ayah-Bunda, menghadirkan pendidikan dan pengasuhan yang insyaAllah melahirkan kader al-madrasah al-ula.
+    title: Kenali Lebih Dekat
+    comment: Para ustadz dan ustadzah Kampung Santri, bersama Ayah-Bunda, menghadirkan pendidikan dan pengasuhan yang insyaAllah melahirkan kader al-madrasah al-ula.
   testimony:
-    title: Suara Hati
-    comment: ...dari santri, wali santri, dan alumni Pesantren Kampung Santri.
+    title: Kata Hati
+    comment: ...para santri, wali santri, dan alumni Pesantren Kampung Santri.
   agenda:
     title: Agenda Harian Santri
     comment: Setiap detik di sepanjang hidup seorang Muslim hendaknya diisi dengan ibadah kepada Allah 'Azza wa Jalla semata.
@@ -134,7 +134,7 @@ narrative:
     title: Apresiasi
     comment: Kampung Santri bersama Asatidz
   edu:
-    title: Pendidikan di Kampung Santri
+    title: Pesantren Kampung Santri
     comment: Mendidik santri tak ubahnya mendidik anak sendiri. Segalanya, kita upayakan yang terbaik. Karena segalanya, akan dipertanggungjawabkan.
     bgimg: "/uploads/pendidikan-header.jpg"
   jenjang:

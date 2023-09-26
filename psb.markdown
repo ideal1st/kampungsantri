@@ -5,7 +5,7 @@ type: Agenda
 alias: PSB
 layout: psb2
 bgimg: "/uploads/8.jpg"
-comment: Bila berminat, sila kuatkan niat dan ikuti tahapannya dengan khidmat.
+comment: "Saatnya berusaha maksimal dengan mencari pendidikan terbaik untuk putri tercinta.<br/><br/>Saatnya kenal lebih dekat dengan Pesantren Kampung Santri."
 jadwal:
   title: Mekanisme PSB
   comment: Tahun Akademik 2024&sol;2025
@@ -20,7 +20,7 @@ jadwal:
       note: "(One-day service; silakan lihat bagan Prosedur di bawah.)"
     - id: 2
       comment: "Layanan PSB diselenggarakan sejak tanggal di atas sampai kuota terpenuhi, setiap hari kerja."
-      note: "(buka setiap hari, pukul 07:30 - 11:30)"
+      note: "(buka setiap hari, pukul 07:30 - 15:30)"
     - id: 3
       comment: "Keputusan hasil seleksi diumumkan setiap hari Senin."
 prosedur:

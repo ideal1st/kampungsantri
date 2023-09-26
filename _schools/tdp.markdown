@@ -1,11 +1,11 @@
 ---
-title: TDP
+title: Takhashush Diniyah Putri
 date: 2023-09-13 08:00:00 +07:00
 position: 3
 subtitle: Kampung Santri
 img: "/uploads/tdp.jpg"
 alt: Takhashush Diniyah Putri
-narrative: Perkembangan globalisasi abad mutakhir menghendaki adanya suatu sistem pendidikan yang komprehensif. Pendidikan merupakan modal dasar dalam pembangunan yang tentunya akan menentukan kemajuan dan perkembangan suatu bangsa. Pendidikan mendorong potensi dan sumber daya setiap individu untuk dapat terus dikembangkan. Pendidikan yang baik diharapkan akan membentuk kepribadian manusia yang sadar akan tanggung jawabnya sebagai makhluk individu, makhluk susila, makhluk sosial dan makhluk beragama serta memiliki karakter yang baik dan bermartabat.
+narrative: "TDP adalah unit pendidikan setara SMA/MA di Pesantren Kampung Santri yang berfokus pada penguasan ilmu-ilmu syar'i dan kependidikan. Para santriwati TDP disiapkan untuk menempuh salah satu dari tiga pilihan fase hidup setelah kelulusan: (1) melanjutkan pendidikan ke jenjang perguruan tinggi khusus ilmu syar'i, (2) berkarier sebagai pengajar ilmu syar'i, atau (3) mendidik generasi penerus dengan bekal ilmu syar'i yang lebih dari sekadar memadai."
 modal-id: 3
 link: tdp
 lulusan:

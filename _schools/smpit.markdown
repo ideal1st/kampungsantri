@@ -1,5 +1,5 @@
 ---
-title: SMPIT
+title: SMP Islam Terpadu
 date: 2023-09-13 08:00:00 +07:00
 position: 2
 subtitle: Imam Syafi'i

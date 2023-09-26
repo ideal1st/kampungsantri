@@ -5,7 +5,7 @@ position: 1
 subtitle: Pesantren Kampung Santri
 img: "/uploads/kbm-depan.jpg"
 alt: "Kurikulum TAKWA"
-narrative: "1. <b>Tauhid</b> yang kokoh<br/>2. <b>Al-Qur'an</b> yang terjaga<br/>3. <b>Karakter</b> yang kuat<br/>4. <b>Wawasan</b> yang luas<br/>5. <b>Andil</b> yang besar"
+narrative: "Berangkat dari visi Pesantren Kampung Santri, dikembangkanlah kurikulum khas Kampung Santri dengan 5 aspek yang terangkum dalam TAKWA:<br/>1. <b>Tauhid</b><br/>2. <b>Al-Qur'an dan As-Sunnah</b><br/>3. <b>Karakter</b><br/>4. <b>Wawasan global</b><br/>5. <b>Amal shalih</b>"
 modal-id: 1
 link: kbm
 ---

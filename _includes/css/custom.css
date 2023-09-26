@@ -3,27 +3,30 @@
 .navbar-brand {
   position: absolute;
   float: left;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 80%;
+  display: block;
+  max-height: 58px;
+  width: auto;
 }
 .navbar-brand img {
-  max-width: 25%;
-  height: auto;
+  max-height: 58px;
+  width: auto;
+  position: fixed;
+  float: left;
+  margin-top: -15px;
 }
 .navbar-default.navbar-shrink .navbar-brand {
   position: absolute;
   float: left;
   display: block;
-  max-width: 80%;
+  max-height: 58px;
   margin: 0px;
-  padding: 5px;
 }
 .navbar-default.navbar-shrink .navbar-brand img {
-  max-height: 100%;
+  max-height: 58px;
   width: auto;
   position: fixed;
   float: left;
+  margin-top: -15px;
 }
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0 20px;
@@ -99,6 +102,7 @@ header.page-header {
 }
 
 header .intro-text {
+	margin-top: 50px;
     padding: 100px 50px;
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 0 20px;
@@ -124,6 +128,13 @@ header .btn {
 	float: left;
 }
 	
+h2.section-heading {
+	margin: 10px 30px;
+}
+
+h3.section-subheading {
+	line-height: 1.5em;
+}
 
 #visi-misi .misi p, #visi-misi h3.visi, #budaya .misi p {
   padding-top: 20px;
@@ -255,6 +266,10 @@ header .btn {
     font-style: italic;
 }
 
+.portfolio-modal .modal-content h2 {
+	overflow-wrap: break-word;
+}
+
 #fasilitas * {
     z-index: 2;
 }
@@ -298,8 +313,8 @@ header .btn {
 }
 
 @media(min-width: 768px) {
-	.navbar-default.navbar-shrink .navbar-brand img {
-	  max-height: 80%;
+	.navbar-default .navbar-brand img {
+	  max-height: 120px;
 	  width: auto;
 	  position: fixed;
 	  float: left;

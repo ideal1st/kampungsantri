@@ -6,7 +6,7 @@ alias: Sambutan Pengasuh Pesantren
 layout: page
 img: "/uploads/selayang.jpg"
 img-alt: Kolam berbunga teratai dengan gedung asrama dan kelas di latar belakang.
-img-title: Syahdunya Kampung Santri
+img-title: Kampung Santri Dekat di Hati
 img-caption: Dihiasi Mekarnya Bunga Teratai
 ---
 Ahlan wa sahlan,<br/>   

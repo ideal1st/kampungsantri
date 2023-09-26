@@ -1,5 +1,5 @@
 ---
-title: SDIT
+title: SD Islam Terpadu
 date: 2023-09-13 07:00:00 +07:00
 position: 1
 subtitle: Imam Syafi'i
