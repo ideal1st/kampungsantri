@@ -1,4 +1,9 @@
 /* Made by @ideal1st */
+body {
+    overflow-x: hidden;
+    font-family: {{ site.data.template.font.secondary }};
+    color: #333;
+}
 
 .navbar-brand {
   position: absolute;
@@ -138,8 +143,8 @@ h3.section-subheading {
 
 #visi-misi .misi p, #visi-misi h3.visi, #budaya .misi p {
   padding-top: 20px;
-  line-height: 40px;
-  font-size: 1.5em;
+  line-height: 36px;
+  font-size: 18px;
 }
 
 #visi-misi .col-md-4 {
@@ -257,6 +262,7 @@ h3.section-subheading {
 .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+	font-size: 24px;
 }
 
 .portfolio-item .portfolio-caption p {
@@ -298,7 +304,7 @@ h3.section-subheading {
 }
 #apresiasi .narasi-kunjungan h4, .narasi-jenjang h4 {
 	text-transform: none;
-	font-size: 20px;
+	font-size: 24px;
 	font-style: italic;
 	margin: 0px 10px;
 }
@@ -325,6 +331,9 @@ h3.section-subheading {
 	.navbar-default .nav li.dropdown:hover, .navbar-default .nav li.dropdown.open a.dropdown-toggle {
 		background-color: #{{ site.data.template.color.primary }};
 		border-radius: 0 20px 0 0;
+	}
+	h3.section-subheading {
+		line-height: 1.5em;
 	}
 	.asatidzah-row {
 		width: 14.2856%;
@@ -881,13 +890,14 @@ ul.requirement-list {
 	text-align: left;
 }
 li.requirement-item {
-	font-size: 24px;
-	line-height: 48px;
+	font-size: 18px;
+	line-height: 36px;
 }
 .footer-col {
 	padding: 15px 0;
 }
 .footer-col span.copyright, .footer-col ul.quicklinks {
+	font-family: {{ site.data.template.font.secondary }};
 	font-size: 18px;
 	color: #{{ site.data.template.color.secondary-dark }};
 	line-height: 30px;

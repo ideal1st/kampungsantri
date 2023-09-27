@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Sydney;
+	src: url(fonts/Sydney-Regular.ttf);
+}
+@font-face {
+	font-family: Sydney;
+	src: url(fonts/Sydney-Bold.ttf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins-Bold.ttf);
+	font-weight: bold;
+}

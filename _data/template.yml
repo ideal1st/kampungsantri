@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: '"Vollkorn", "Georgia", Times New Roman, Times, serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: '"Sydney", "Vollkorn", "Georgia", Times New Roman, Times, serif'
+  secondary: '"Poppins", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif'
