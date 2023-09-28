@@ -898,7 +898,7 @@ li.requirement-item {
 }
 .footer-col span.copyright, .footer-col ul.quicklinks {
 	font-family: {{ site.data.template.font.secondary }};
-	font-size: 18px;
+	font-size: 16px;
 	color: #{{ site.data.template.color.secondary-dark }};
-	line-height: 30px;
+	line-height: 32px;
 }

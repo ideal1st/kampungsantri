@@ -6,7 +6,7 @@
 				<iframe class="bottom-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.262193266618!2d107.8434034055229!3d-6.914808169066323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68dab2450ce56f%3A0xfe75054430613548!2sPesantren%20Kampung%20Santri!5e0!3m2!1sid!2sid!4v1694499956563!5m2!1sid!2sid" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			{% for link in links %}
-			<div class="col-sm-3 col-md-2">
+			<div class="col-sm-6 col-md-6 col-lg-2">
 				{% if link.sublinks %}
 					<a href="{{ site.url }}{{ link.url }}">
 						<h4 class="bottom-heading">{{ link.title }}</h4>
