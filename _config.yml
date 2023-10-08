@@ -44,6 +44,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  values:
+    title: Values
+    output: true
 defaults:
 - scope:
     path: ''
@@ -100,7 +103,7 @@ narrative:
   home:
     title: Pesantren Kampung Santri
     bgimg: "/uploads/beranda-header.jpg"
-    comment: "Bekali mereka dengan pendidikan terbaik untuk masa depan gemilang.<br/><br/>#AyoKeKampungSantri<br/><br/>Pesantren Kampung Santri hadir untuk menjadi pilihan pendidikan Islam sesuai manhaj Ahlussunnah wal Jama'ah. Dengan kurikulum yang khas, Pesantren Kampung Santri selalu berupaya mewujudkan lulusan yang bertauhid, berkarakter, berwawasan global, dan beramal shalih sesuai tuntunan Al-Qur'an dan Sunnah."
+    comment: "Bekali Ananda dengan pendidikan terbaik untuk masa depan gemilang.<br/><br/>#AyoKeKampungSantri<br/><br/>Pesantren Kampung Santri hadir untuk menjadi pilihan pendidikan Islam sesuai manhaj Ahlussunnah wal Jama'ah. Dengan kurikulum yang khas, Pesantren Kampung Santri selalu berupaya mewujudkan lulusan yang bertauhid, berkarakter, berwawasan global, dan beramal shalih sesuai tuntunan Al-Qur'an dan Sunnah."
     cta-btn: Ahlan wa Sahlan
     cta-url: selayang
   selayang:
@@ -131,6 +134,9 @@ narrative:
   budaya:
     title: Budaya Kampung Santri
     comment: 
+  nilai:
+    title: Filosofi Pelayanan
+    comment:
   apresiasi:
     title: Apresiasi
     comment: Kampung Santri bersama Asatidz

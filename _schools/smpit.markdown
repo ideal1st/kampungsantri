@@ -1,8 +1,8 @@
 ---
-title: SMP Islam Terpadu
+title: "SMP Islam Terpadu Imam Syafi'i"
 date: 2023-09-13 08:00:00 +07:00
 position: 2
-subtitle: Imam Syafi'i
+subtitle: 
 img: "/uploads/smpit.jpg"
 alt: SMPIT Imam Syafi'i
 narrative: Menghantarkan putri-putri muslimah kita dari masa kanak-kanak menuju masa dewasa bukanlah pekerjaan ringan. Ada banyak adaptasi yang perlu mereka hadapi dan tentunya kita maklumi. Berangkat dari kesadaran ini, SMPIT Imam Syafi'i menyusun program kurikuler dan kokurikulernya sedemikian rupa agar dapat mengakomodasi baik kebutuhan akademis santri tingkat SMP secara umum maupun kebutuhan psikologis muslimah usia pra-remaja hingga remaja awal secara khusus.

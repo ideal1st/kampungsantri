@@ -1,8 +1,8 @@
 ---
-title: SD Islam Terpadu
+title: "SD Islam Terpadu Imam Syafi'i"
 date: 2023-09-13 07:00:00 +07:00
 position: 1
-subtitle: Imam Syafi'i
+subtitle: 
 img: "/uploads/sdit.jpg"
 alt: SDIT Imam Syafi'i
 narrative: "&ldquo;Aku juara. Kamu juara. Kita semua juara.&rdquo;<br/><br/>Berbekal motto ini, SDIT Imam Syafi'i senantiasa mengupayakan segenap proses pembelajaran yang berorientasi pada kesuksesan bersama. Dengan mengurangi atmosfer kompetisi, SDIT Imam Syafi'i berharap akan tumbuh semangat kolaborasi dan karakter kooperatif dalam jiwa para santri. Sebab, keshalihan pribadi tidak banyak mengubah apapun bila tak diiringi keshalihan jama'i."

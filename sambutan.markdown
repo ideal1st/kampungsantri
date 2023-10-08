@@ -7,7 +7,7 @@ layout: page
 img: "/uploads/selayang.jpg"
 img-alt: Kolam berbunga teratai dengan gedung asrama dan kelas di latar belakang.
 img-title: Kampung Santri Dekat di Hati
-img-caption: Dihiasi Mekarnya Bunga Teratai
+img-caption: 
 ---
 Ahlan wa sahlan,<br/>   
 Selamat datang di Pesantren Kampung Santri.<br/>   

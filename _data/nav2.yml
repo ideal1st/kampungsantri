@@ -1,0 +1,62 @@
+- title: Pesantren
+  url: /
+  sublinks:
+    - title: Selayang Pandang
+      url: /#selayang
+    - title: separator
+    - title: Visi dan Misi
+      url: /#visi-misi
+    - title: separator
+    - title: Asatidzah
+      url: /#asatidzah
+    - title: separator
+    - title: Budaya
+      url: /#budaya
+    - title: separator
+    - title: Testimoni
+      url: /#testimoni
+    - title: separator
+    - title: Filosofi
+      url: /#filosofi
+    - title: separator
+    - title: Apresiasi
+      url: /#apresiasi
+- title: Pendidikan
+  url: /pendidikan/
+  sublinks:
+    - title: "SDIT Imam Syafi'i"
+      url: /pendidikan/#sdit
+    - title: separator
+    - title: "SMPIT Imam Syafi'i"
+      url: /pendidikan/#smpit
+    - title: separator
+    - title: Takhashush Diniyah Putri
+      url: /pendidikan/#tdp
+    - title: separator
+    - title: Agenda Harian Santri
+      url: /pendidikan/#agenda
+- title: PSB
+  url: /psb/
+  sublinks:
+    - title: Mekanisme
+      url: /psb/#mekanisme
+    - title: separator
+    - title: Prosedur
+      url: /psb/#prosedur
+    - title: separator
+    - title: Persyaratan
+      url: /psb/#persyaratan
+- title: Aktivitas
+  url: /aktivitas/
+  sublinks:
+    - title: KBM
+      url: /aktivitas/#kbm
+    - title: separator
+    - title: Tahfizh al-Qur'an
+      url: /aktivitas/#tahfizh
+    - title: separator
+    - title: Keasramaan
+      url: /aktivitas/#asrama
+    - title: separator
+    - title: Ekstrakurikuler
+      url: /aktivitas/#ekskul

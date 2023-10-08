@@ -2,7 +2,7 @@
 title: Takhashush Diniyah Putri
 date: 2023-09-13 08:00:00 +07:00
 position: 3
-subtitle: Kampung Santri
+subtitle: 
 img: "/uploads/tdp.jpg"
 alt: TDP Kampung Santri
 narrative: "TDP adalah unit pendidikan setara SMA/MA di Pesantren Kampung Santri yang berfokus pada penguasan ilmu-ilmu syar'i dan kependidikan. Para santriwati TDP disiapkan untuk menempuh salah satu dari tiga pilihan fase hidup setelah kelulusan: (1) melanjutkan pendidikan ke jenjang perguruan tinggi khusus ilmu syar'i, (2) berkarier sebagai pengajar ilmu syar'i, atau (3) mendidik generasi penerus dengan bekal ilmu syar'i yang lebih dari sekadar memadai."
