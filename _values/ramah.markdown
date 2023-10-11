@@ -4,4 +4,4 @@ date: 2023-09-07 08:50:00 +07:00
 position: 2
 icon: 2
 ---
-Silakan kunjungi putri-putri Ayah-Bunda di Pesantren Kampung Santri kapan saja. Pintu kami selalu terbuka. Sekadar botram menikmati suasana hijau dan asri ataupun mengikuti kajian keislaman yang rutin kami sajikan, selalu ada alasan untuk berkunjung lagi ke Kampung Santri.
+Laksana menanam pohon dari sebiji benih, mendidik adalah pekerjaan yang kita kerjakan hari ini namun buahnya baru akan hadir di masa depan nanti, jauh setelah kita berpulang ke Ilahi Rabbi. Karenanya, Kampung Santri senantiasa berupaya menghadirkan pengajaran, pendidikan, serta pengasuhan yang menyentuh sanubari.

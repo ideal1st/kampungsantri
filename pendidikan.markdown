@@ -3,7 +3,7 @@ title: Pendidikan di Kampung Santri
 date: 2023-08-27 14:31:00 +07:00
 layout: pendidikan2
 bgimg: "/uploads/pendidikan-header2.jpg"
-comment: "Mendidik santri tak ubahnya mendidik anak sendiri. Segalanya, kita upayakan yang terbaik. Karena segalanya, akan dipertanggungjawabkan."
+comment: "Pendidikan adalah upaya membentuk generasi yang bertaqwa kepada Allah subhanahu wa taala. Pendidikan merupakan proses mempersiapkan anak manusia untuk mampu melaksanakan berbagai kewajibannya dengan menumbuhkembangkan segala potensi baik jasmani maupun rohani, akal dan budi. Pendidikan adalah ungkapan kasih sayang, harapan untuk menjadi lebih baik dan cara meraih kebahagiaan."
 carousels:
   - images:
     - url: "/uploads/sdit-1.jpg"
