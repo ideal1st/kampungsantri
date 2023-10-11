@@ -1,5 +1,6 @@
 ---
 title: Zasqia Solaris
+title-alt: Alumni TDP Angkatan 1
 date: 2023-09-06 08:50:00 +07:00
 position: 1
 mode:
