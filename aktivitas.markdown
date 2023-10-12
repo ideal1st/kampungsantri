@@ -4,7 +4,7 @@ date: 2023-09-15 13:31:00 +07:00
 position: 1
 layout: aktivitas
 bgimg: "/uploads/aktivitas.jpg"
-comment: Allah lebih menyukai mukmin yang kuat daripada mukmin yang lemah.
+comment: "&ldquo;Dan tolong-menolonglah kamu dalam mengerjakan kebajikan dan taqwa&rdquo; ( QS al-Maaidah: 2 )"
 carousels:
   - images:
     - url: "/uploads/kbm-1.jpg"

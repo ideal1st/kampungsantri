@@ -6,6 +6,8 @@ alias: PSB
 layout: psb2
 bgimg: "/uploads/8.jpg"
 comment: "Saatnya berusaha maksimal dengan mencari pendidikan terbaik untuk putri tercinta.<br/><br/>Saatnya kenal lebih dekat dengan Pesantren Kampung Santri."
+cta: "Hubungi 08112445575"
+cta-url: "https://wa.me/628112445575?text=Assalamu+%27alaykum%2C+Kampung+Santri.+Mohon+ijin+bertanya+tentang+PSB."
 jadwal:
   title: Mekanisme PSB
   comment: Tahun Akademik 2024&sol;2025
