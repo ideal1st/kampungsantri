@@ -163,6 +163,14 @@ h3.section-subheading {
   border-radius: 0px 20px;
 }
 
+.btn-dark{
+  background-color: #{{ site.data.template.color.secondary-dark }};
+}
+
+.list-gap{
+  margin-top: 10px;
+}
+
 .bg-primary {
   background-color: #{{ site.data.template.color.primary }};
   background-image: url({{ site.baseurl }}uploads/seamless-overlay.png);
