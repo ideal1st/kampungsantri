@@ -25,7 +25,7 @@
   url: /pendidikan/
   sublinks:
     - title: "SDIT Imam Syafi'i"
-      url: /pendidikan/#sdit
+      url: /pendidikan/#jenjang
     - title: separator
     - title: "SMPIT Imam Syafi'i"
       url: /pendidikan/#smpit
@@ -50,7 +50,7 @@
   url: /aktivitas/
   sublinks:
     - title: KBM
-      url: /aktivitas/#kbm
+      url: /aktivitas/#aktivitas
     - title: separator
     - title: Tahfizh al-Qur'an
       url: /aktivitas/#tahfizh
