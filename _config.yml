@@ -88,7 +88,7 @@ defaults:
     layout: post
     permalink: "/teachers/:title/"
 permalink: pretty
-tagline: Beradab. Berilmu. Berdikari.
+tagline: "Pesantren Pilihan Keluarga"
 logo:
   url: "/img/logo.png"
   alt: Pesantren Kampung Santri
