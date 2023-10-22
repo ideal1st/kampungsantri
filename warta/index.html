@@ -2,7 +2,7 @@
 layout: indexed
 title: Warta
 comment: "Ikuti informasi terbaru dari kami."
-bgimg: "/uploads/14.jpg"
+bgimg: "/uploads/14-2.jpg"
 ---
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
@@ -31,18 +31,24 @@ bgimg: "/uploads/14.jpg"
 					<div class="pagination">
 					  {% if paginator.previous_page %}
 						<a href="{{ paginator.previous_page_path }}" class="previous btn btn-xl">
-						  Sebelumnya
+						<<<
 						</a>
 					  {% else %}
-						<span class="previous btn btn-xl">Sebelumnya</span>
+						<span class="previous btn btn-xl">
+						<<<
+						</span>
 					  {% endif %}
 					  <span class="page_number">
 						laman ke-{{ paginator.page }} dari {{ paginator.total_pages }} halaman
 					  </span>
 					  {% if paginator.next_page %}
-						<a href="{{ paginator.next_page_path }}" class="next btn btn-xl">Berikutnya</a>
+						<a href="{{ paginator.next_page_path }}" class="next btn btn-xl">
+						>>>
+						</a>
 					  {% else %}
-						<span class="next btn btn-xl">Berikutnya</span>
+						<span class="next btn btn-xl">
+						>>>
+						</span>
 					  {% endif %}
 					</div>
 				</div>
