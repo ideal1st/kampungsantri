@@ -165,5 +165,5 @@ social:
     url: https://wa.me/+628112445575
 plugins:
   - jekyll-paginate
-paginate: 9
+paginate: 6
 paginate_path: "/warta/page:num/"
