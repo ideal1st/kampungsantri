@@ -911,3 +911,7 @@ li.requirement-item {
 	color: #{{ site.data.template.color.secondary-dark }};
 	line-height: 32px;
 }
+
+.page_number {
+	padding: 16px 32px;
+}

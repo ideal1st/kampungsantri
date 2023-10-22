@@ -1,0 +1,50 @@
+---
+layout: indexed
+title: Warta
+comment: "Ikuti informasi terbaru dari kami."
+bgimg: "/uploads/14.jpg"
+---
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="{{ post.url }}" class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{ post.bgimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+				</div>
+
+{% endfor %}
+			</div>
+<!-- Pagination links -->
+				<div class="row text-center">
+					<div class="pagination">
+					  {% if paginator.previous_page %}
+						<a href="{{ paginator.previous_page_path }}" class="previous btn btn-xl">
+						  Sebelumnya
+						</a>
+					  {% else %}
+						<span class="previous btn btn-xl">Sebelumnya</span>
+					  {% endif %}
+					  <span class="page_number">
+						laman ke-{{ paginator.page }} dari {{ paginator.total_pages }} halaman
+					  </span>
+					  {% if paginator.next_page %}
+						<a href="{{ paginator.next_page_path }}" class="next btn btn-xl">Berikutnya</a>
+					  {% else %}
+						<span class="next btn btn-xl">Berikutnya</span>
+					  {% endif %}
+					</div>
+				</div>
+<!-- Closure -->
+	</section>

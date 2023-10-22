@@ -163,3 +163,7 @@ social:
     url: https://linktr.ee/pesantrenkampungsantri
   - title: whatsapp
     url: https://wa.me/+628112445575
+plugins:
+  - jekyll-paginate
+paginate: 9
+paginate_path: "/warta/page:num/"
