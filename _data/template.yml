@@ -9,3 +9,4 @@ color:
 font:
   primary: '"Sydney", "Vollkorn", "Georgia", Times New Roman, Times, serif'
   secondary: '"Poppins", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif'
+  tertiary: '"Scheherazade New", serif'
