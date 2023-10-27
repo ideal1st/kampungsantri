@@ -915,3 +915,9 @@ li.requirement-item {
 .page_number {
 	padding: 16px 32px;
 }
+
+.text-left img {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
