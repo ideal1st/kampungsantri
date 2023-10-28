@@ -1,4 +1,8 @@
 /* Made by @ideal1st */
+html{
+  scroll-behavior: smooth !important; 
+}
+
 body {
     overflow-x: hidden;
     font-family: {{ site.data.template.font.secondary }};
