@@ -1,0 +1,38 @@
+---
+title: Lowongan Kerja Guru November 2023
+comment: Jadilah bagian dari penyegaran iklim pendidikan pesantren Indonesia.
+layout: page
+date: 2023-10-22 08:57:00 +07:00
+subtitle: SDIT & SMPIT Pesantren Kampung Santri
+bgimg: "/uploads/kbm-3.jpg"
+alt: "Lowongan Kerja Guru November 2023"
+---
+# Flyer Lowongan Kerja Guru November 2023
+![Flyer Loker Guru November 2023](/uploads/loker-guru-nov-2023.jpg)
+
+السلام عليكم ورحمة الله وبركاته 
+
+Pesantren Kampung Santri Membuka Lowongan Pekerjaan untuk Formasi:
+1. Guru Matematika dan IPA
+2. Guru Bahasa Indonesia
+
+Kualifikasi :
+- Usia Maksimal 35 Tahun
+- Pendidikan Minimal S1
+- Komunikatif dan mampu bekerja dalam Tim
+- Berkeinginan kuat dan aktif terlibat dalam pengelolaan pesantren
+
+Kirimkan Lamaran melaui :<br/>
+Email : hrd@kampungsantri.or.id
+
+Pesantren Kampung Santri— Mendidik Generasi<br/> 
+#ayokekampungsantri <br/>
+#pesantrenpilihankeluarga
+
+For more information:<br/>
+🌏 Web Site :<br/>
+[Pesantren Kampung Santri](https://kampungsantri.or.id/)<br/>
+🌳 Link Tree :<br/>
+[Link List](https://linktr.ee/PesantrenKampungSantri)
+
+والسلام عليكم ورحمة الله وبركاته
