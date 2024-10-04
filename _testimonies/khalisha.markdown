@@ -1,10 +1,10 @@
 ---
 title: Khalisha Khairani
-title-alt: Santri SMPIT Imam Syafi'i Angkatan 8
+title-alt: Alumni SMPIT Imam Syafi'i Angkatan 8
 date: 2023-09-06 09:50:00 +07:00
 position: 2
 mode: timeline-inverted
-group: Santri SMPIT Imam Syafi'i Angkatan 8
+group: Alumni SMPIT Imam Syafi'i Angkatan 8
 img: "/uploads/khalisha.jpg"
 img-alt: Khalisha Khairani
 modal-id: 2

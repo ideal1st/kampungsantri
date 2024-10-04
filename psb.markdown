@@ -6,13 +6,13 @@ alias: PSB
 layout: psb2
 bgimg: "/uploads/8.jpg"
 comment: "Saatnya berusaha maksimal dengan mencari pendidikan terbaik untuk putri tercinta.<br/><br/>Saatnya kenal lebih dekat dengan Pesantren Kampung Santri."
-cta: "Hubungi 08112445575"
+cta: "Hubungi 0811-244-5575"
 cta-url: "https://wa.me/628112445575?text=Assalamu+%27alaykum%2C+Kampung+Santri.+Mohon+ijin+bertanya+tentang+PSB."
 jadwal:
   title: Mekanisme PSB
-  comment: Tahun Akademik 2024&sol;2025
+  comment: Tahun Akademik 2025&sol;2026
   steps:
-  - title: "Pembukaan PSB: 23 September 2023"
+  - title: "Pembukaan PSB: 5 Oktober 2024"
     img: "/uploads/mekanisme.jpg"
     img-title: Suasana Survei Dadakan
     img-caption: di Ruang Tata Usaha Pesantren Kampung Santri
@@ -77,7 +77,7 @@ persyaratan:
       comment: Uang Pangkal
       note: Rp 24.300.000
     - id: 3
-      comment: Uang SPP bulan Juli 2024
+      comment: Uang SPP bulan Juli 2025
       note: Rp 2.200.000
     - id: 4
       comment: Total Biaya
