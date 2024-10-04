@@ -46,6 +46,9 @@
     - title: separator
     - title: Persyaratan
       url: /psb/#persyaratan
+    - title: separator
+    - title: Brosur
+      url: /psb/#brosur
 - title: Aktivitas
   url: /aktivitas/
   sublinks:

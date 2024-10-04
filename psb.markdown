@@ -82,4 +82,8 @@ persyaratan:
     - id: 4
       comment: Total Biaya
       note: Rp 27.000.000
+brosur:
+  title: brosur
+  comment: Penerimaan Santri Baru 2025/2026
+  url: https://drive.google.com/file/d/17g2MEWh6DYp6k6rF4JU8tH5CD0KjB5la/preview
 ---
