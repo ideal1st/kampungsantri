@@ -85,5 +85,5 @@ persyaratan:
 brosur:
   title: brosur
   comment: Penerimaan Santri Baru 2025/2026
-  url: https://drive.google.com/file/d/17g2MEWh6DYp6k6rF4JU8tH5CD0KjB5la/preview
+  url: https://drive.google.com/file/d/1sy37oJ9jnXmXpi31in5lda2V-BqbwtnZ/preview
 ---
