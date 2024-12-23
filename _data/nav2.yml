@@ -17,10 +17,10 @@
       url: /#testimoni
     - title: separator
     - title: Prinsip
-      url: /#filosofi
+      url: /#prinsip
     - title: separator
-    - title: Apresiasi
-      url: /#apresiasi
+    - title: Kajian
+      url: /#kajian
 - title: Pendidikan
   url: /pendidikan/
   sublinks:

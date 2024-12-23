@@ -297,25 +297,25 @@ h3.section-subheading {
 	color: #fff;
 }
 
-#apresiasi .content-row, #jenjang .content-row, #aktivitas .content-row, .agenda-slider {
+#kajian .content-row, #jenjang .content-row, #aktivitas .content-row, .agenda-slider {
 	padding-bottom: 80px;
 }
-#apresiasi .portfolio-item .portfolio-caption, #jenjang .portfolio-item .portfolio-caption, #selayang .portfolio-item .portfolio-caption, #mekanisme .portfolio-item .portfolio-caption {
+#kajian .portfolio-item .portfolio-caption, #jenjang .portfolio-item .portfolio-caption, #selayang .portfolio-item .portfolio-caption, #mekanisme .portfolio-item .portfolio-caption {
 	max-width: 100%;
 }
-#apresiasi .portfolio-item .portfolio-link, #jenjang .portfolio-item .portfolio-link {
+#kajian .portfolio-item .portfolio-link, #jenjang .portfolio-item .portfolio-link {
 	max-width: 100%;
 }
-#apresiasi .narasi-kunjungan, #jenjang .narasi-jenjang {
+#kajian .narasi-kunjungan, #jenjang .narasi-jenjang {
 	vertical-align: center;
 }
-#apresiasi .narasi-kunjungan p, .narasi-jenjang p {
+#kajian .narasi-kunjungan p, .narasi-jenjang p {
 	text-transform: none;
 	font-size: 18px;
 	font-style: italic;
 	margin: 0px 10px 20px 10px;
 }
-#apresiasi .narasi-kunjungan h4, .narasi-jenjang h4 {
+#kajian .narasi-kunjungan h4, .narasi-jenjang h4 {
 	text-transform: none;
 	font-size: 24px;
 	font-style: italic;
@@ -331,6 +331,10 @@ h3.section-subheading {
 	font-size: 60px;
 }
 
+#kunjungan .portfolio-caption {
+  color: #5d8f12;
+  max-width: 100%;
+}
 @media(min-width: 768px) {
 	.navbar-default .navbar-brand img {
 	  max-height: 120px;
@@ -392,7 +396,7 @@ h3.section-subheading {
 	#testimoni .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i, #agenda .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
 		margin-top: -50%;
 	}
-	#apresiasi .img-right, #jenjang .img-right, #aktivitas .img-right {
+	#kajian .img-right, #jenjang .img-right, #aktivitas .img-right {
 	float: right;
 	}
 	

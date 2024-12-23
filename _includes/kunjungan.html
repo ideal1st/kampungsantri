@@ -1,0 +1,26 @@
+<!-- Kunjungan Section -->
+<section id="kunjungan" class="bg-primary">
+    <div class="container">
+        <div class="row text-center">
+            <h2 class="section-heading">{{ site.narrative.kunjungan.title }}</h2>
+            <h3 class="section-subheading">{{ site.narrative.kunjungan.comment }}</h3>
+            {% for guest in site.guests | sort:"position" %}
+            <div class="col-md-4 portfolio-item">
+<!--                <a href="{{ guest.url}}" class="portfolio-link">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="{{ guest.bgimg }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                </a>-->
+                <img src="{{ guest.bgimg }}" class="img-responsive img-centered" alt="{{ guest.alt }}">
+                <div class="portfolio-caption">
+                    <h4>{{ guest.title }}</h4>
+                    <p class="text-muted">{{ guest.subtitle }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>

@@ -47,6 +47,9 @@ collections:
   values:
     title: Values
     output: true
+  guests:
+    title: Guests
+    output: true
 defaults:
 - scope:
     path: ''
@@ -138,8 +141,8 @@ narrative:
     title: Prinsip Pelayanan
     comment:
   apresiasi:
-    title: Apresiasi
-    comment: Kampung Santri bersama Asatidz
+    title: Kajian
+    comment: Asatidz bersama Pesantren Kampung Santri
   edu:
     title: Pesantren Kampung Santri
     comment: Mendidik santri tak ubahnya mendidik anak sendiri. Segalanya, kita upayakan yang terbaik. Karena segalanya, akan dipertanggungjawabkan.
@@ -150,6 +153,9 @@ narrative:
   psb:
     title: Penerimaan Santri Baru
     comment: Bila berminat, sila kuatkan niat dan ikuti tahapannya dengan khidmat.
+  kunjungan:
+    title: Kunjungan
+    comment:
 social:
   - title: facebook
     url: https://fb.me/pesantrenkampungsantri
