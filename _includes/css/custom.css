@@ -335,6 +335,11 @@ h3.section-subheading {
   color: #5d8f12;
   max-width: 100%;
 }
+
+#kunjungan .img-responsive {
+  width: 100%;
+}
+
 @media(min-width: 768px) {
 	.navbar-default .navbar-brand img {
 	  max-height: 120px;

@@ -21,6 +21,9 @@
     - title: separator
     - title: Kajian
       url: /#kajian
+    - title: separator
+    - title: Kunjungan
+      url: /#kunjungan
 - title: Pendidikan
   url: /pendidikan/
   sublinks:
