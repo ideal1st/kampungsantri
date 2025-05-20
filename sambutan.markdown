@@ -12,7 +12,7 @@ img-caption:
 Ahlan wa sahlan,<br/>   
 Selamat datang di Pesantren Kampung Santri.<br/>   
 <br/>
-Pesantren Kampung Santri adalah mitra Ayah Bunda dalam mendidik putri tercinta agar menjadi generasi terbaik. Generasi yang mencintai Allah &#65019; dan Rasul-Nya. Yang menjadikan Al-Qur'an sebagai panduan hidup dengan selalu membaca, menghafal dan mengamalkan isinya. Generasi yang berjaya dengan merealisasikan tauhid dan mengamalkan sunnah Nabi &#65018; dalam seluruh aspek kehidupan.<br/>   
+Pesantren Kampung Santri adalah pesantren sunnah bermanhaj salaf khusus akhwat yang insya Allah &#65019; siap bermitra dengan Ayah Bunda dalam mendidik putri tercinta agar menjadi generasi terbaik. Generasi yang mencintai Allah &#65019; dan Rasul-Nya. Yang menjadikan Al-Qur'an sebagai panduan hidup dengan selalu membaca, menghafal dan mengamalkan isinya. Generasi yang berjaya dengan merealisasikan tauhid dan mengamalkan sunnah Nabi &#65018; dalam seluruh aspek kehidupan.<br/>   
 <br/>
 Mari berjuang dan bersabar dalam menjalankan kewajiban mendidik generasi bersama Pesantren Kampung Santri yang selalu berusaha untuk menjadi lembaga pendidikan profesional, amanah dan ramah santri. Melalui perjuangan ini, semoga terlahir generasi terbaik untuk bangsa ini: Generasi Beradab, Berilmu dan Berdikari.<br/>   
 <br/>
