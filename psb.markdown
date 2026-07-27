@@ -10,19 +10,19 @@ cta: "Hubungi 0811-244-5575"
 cta-url: "https://wa.me/628112445575?text=Assalamu+%27alaykum%2C+Kampung+Santri.+Mohon+ijin+bertanya+tentang+PSB."
 jadwal:
   title: Mekanisme PSB
-  comment: Tahun Akademik 2025&sol;2026
+  comment: Tahun Akademik 2027&sol;2028
   steps:
-  - title: "Pembukaan PSB: 5 Oktober 2024"
+  - title: "Pembukaan PSB: 5 September 2026"
     img: "/uploads/mekanisme.jpg"
-    img-title: Suasana Survei Dadakan
-    img-caption: di Ruang Tata Usaha Pesantren Kampung Santri
+    img-title: Suasana Survei
+    img-caption: di Lobi Pesantren Kampung Santri
     items:
     - id: 1
       comment: "Tahapan seleksi mulai survei hingga wawancara II dituntaskan dalam hari yang sama."
       note: "(One-day service; silakan lihat bagan Prosedur di bawah.)"
     - id: 2
       comment: "Layanan PSB diselenggarakan sejak tanggal di atas sampai kuota terpenuhi, setiap hari kerja."
-      note: "(buka setiap hari, pukul 07:30 - 15:30)"
+      note: "(buka setiap hari, pukul 08:00 - 15:00)"
     - id: 3
       comment: "Keputusan hasil seleksi diumumkan setiap hari Senin."
 prosedur:
@@ -77,13 +77,13 @@ persyaratan:
       comment: Uang Pangkal
       note: Rp 24.300.000
     - id: 3
-      comment: Uang SPP bulan Juli 2025
+      comment: Uang SPP bulan Juli 2027
       note: Rp 2.200.000
     - id: 4
       comment: Total Biaya
       note: Rp 27.000.000
 brosur:
   title: brosur
-  comment: Penerimaan Santri Baru 2025/2026
-  url: https://drive.google.com/file/d/1sy37oJ9jnXmXpi31in5lda2V-BqbwtnZ/preview
+  comment: Penerimaan Santri Baru 2027/2028
+  url: https://drive.google.com/file/d/1RHjnOdb3Hpzvwg_Li0x4D9div6YZY-gM/preview
 ---
