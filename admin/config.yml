@@ -1,0 +1,197 @@
+site:
+  owner: ideal1st
+  repo: kampungsantri
+  branch: gh-pages
+  media_folder: _uploads
+  public_folder: /uploads/
+
+# Jekyll content collections managed by the admin panel.
+# These are auto-derived from _config.yml and the repository structure.
+collections:
+  - name: posts
+    label: Posts / Berita
+    folder: _posts
+    create: true
+    slug: "{year}-{month}-{day}-{slug}"
+
+  - name: agendas
+    label: Agenda Harian
+    folder: _agendas
+    create: true
+    slug: "{slug}"
+
+  - name: aktivitas
+    label: Aktivitas
+    folder: _aktivitas
+    create: true
+    slug: "{slug}"
+
+  - name: cultures
+    label: Budaya
+    folder: _cultures
+    create: true
+    slug: "{slug}"
+
+  - name: fasilitas
+    label: Fasilitas
+    folder: _fasilitas
+    create: true
+    slug: "{slug}"
+
+  - name: visits
+    label: Kunjungan Tokoh
+    folder: _visits
+    create: true
+    slug: "{slug}"
+
+  - name: misi
+    label: Misi
+    folder: _misi
+    create: true
+    slug: "{slug}"
+
+  - name: psb
+    label: PSB
+    folder: _psb
+    create: true
+    slug: "{slug}"
+
+  - name: schools
+    label: Jenjang Pendidikan
+    folder: _schools
+    create: true
+    slug: "{slug}"
+
+  - name: teachers
+    label: Asatidzah
+    folder: _teachers
+    create: true
+    slug: "{slug}"
+
+  - name: testimonies
+    label: Testimoni
+    folder: _testimonies
+    create: true
+    slug: "{slug}"
+
+  - name: values
+    label: Prinsip Pelayanan
+    folder: _values
+    create: true
+    slug: "{slug}"
+
+  - name: guests
+    label: Kajian / Guests
+    folder: _guests
+    create: true
+    slug: "{slug}"
+
+# Static Jekyll pages at the repository root.
+pages:
+  - name: aktivitas
+    label: Halaman Aktivitas
+    file: aktivitas.markdown
+
+  - name: pendidikan
+    label: Halaman Pendidikan
+    file: pendidikan.markdown
+
+  - name: psb
+    label: Halaman PSB
+    file: psb.markdown
+
+  - name: sambutan
+    label: Sambutan Pengasuh
+    file: sambutan.markdown
+
+  - name: index
+    label: Beranda (index.html)
+    file: index.html
+
+  - name: 404
+    label: Halaman 404
+    file: 404.md
+
+# Jekyll _data files.
+data:
+  - name: nav
+    label: Navigasi (nav)
+    file: _data/nav.yml
+
+  - name: nav2
+    label: Navigasi (nav2)
+    file: _data/nav2.yml
+
+  - name: carousel
+    label: Carousel
+    file: _data/carousel.yml
+
+  - name: template
+    label: Template (warna & font)
+    file: _data/template.yml
+
+# Media upload settings.
+media:
+  folder: _uploads
+  public_folder: /uploads/
+
+# Field type hints used when rendering the editor.
+# If a front-matter key is not listed here, the editor falls back to a string.
+field_types:
+  title:        { label: Title, widget: string }
+  subtitle:     { label: Subtitle, widget: string }
+  title-alt:    { label: Title (alt), widget: string }
+  comment:      { label: Komentar, widget: text }
+  date:         { label: Tanggal, widget: datetime }
+  position:     { label: Posisi, widget: number }
+  modal-id:     { label: Modal ID, widget: number }
+  icon:         { label: Ikon, widget: string }
+  time:         { label: Waktu, widget: string }
+  mode:         { label: Mode, widget: string }
+  group:        { label: Group, widget: string }
+  type:         { label: Tipe, widget: string }
+  alias:        { label: Alias, widget: string }
+  jabatan:      { label: Jabatan, widget: string }
+  link:         { label: Link, widget: string }
+  cta:          { label: CTA Text, widget: string }
+  cta-url:      { label: CTA URL, widget: string }
+  permalink:    { label: Permalink, widget: string }
+  description:  { label: Deskripsi, widget: text }
+  narrative:    { label: Narasi, widget: text }
+  quote:        { label: Quote, widget: text }
+  img:          { label: Gambar, widget: image }
+  img-alt:      { label: Gambar (alt), widget: string }
+  img-title:    { label: Gambar (title), widget: string }
+  img-caption:  { label: Gambar (caption), widget: string }
+  thumbnail:    { label: Thumbnail, widget: image }
+  bgimg:        { label: Background Image, widget: image }
+  alt:          { label: Teks Alternatif, widget: string }
+  slider:       { label: Slider, widget: number }
+  slider-title: { label: Slider Title, widget: string }
+  agenda-slider:{ label: Agenda Slider, widget: number }
+  layout:
+    label: Layout
+    widget: select
+    options:
+      - default
+      - post
+      - page
+      - home
+      - indexed
+      - aktivitas
+      - beranda
+      - beranda2
+      - beranda3
+      - pendidikan
+      - pendidikan2
+      - psb
+      - psb2
+      - feed
+  carousels:    { label: Carousels, widget: yaml }
+  jadwal:       { label: Jadwal, widget: yaml }
+  prosedur:     { label: Prosedur, widget: yaml }
+  persyaratan:  { label: Persyaratan, widget: yaml }
+  brosur:       { label: Brosur, widget: yaml }
+  lulusan:      { label: Lulusan, widget: yaml }
+  mapels:       { label: Mata Pelajaran, widget: yaml }
+  body:         { label: Body, widget: markdown }
