@@ -173,3 +173,5 @@ plugins:
   - jekyll-paginate
 paginate: 6
 paginate_path: "/warta/page:num/"
+exclude:
+  - README-ADMIN.md
