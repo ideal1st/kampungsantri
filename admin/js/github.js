@@ -27,7 +27,7 @@ window.GitHub = (function () {
       'Accept': 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28'
     };
-    if (token) headers['Authorization'] = `token ${token}`;
+    if (token) headers['Authorization'] = `Bearer ${token}`;
 
     const url = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}${path}`;
     const res = await fetch(url, Object.assign({}, options, {
