@@ -24,8 +24,7 @@ window.GitHub = (function () {
   async function api(path, options) {
     const token = getToken();
     const headers = {
-      'Accept': 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28'
+      'Accept': 'application/vnd.github+json'
     };
     if (token) headers['Authorization'] = `Bearer ${token}`;
 
