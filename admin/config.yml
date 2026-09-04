@@ -168,7 +168,7 @@ field_types:
   alt:          { label: Teks Alternatif, widget: string }
   slider:       { label: Slider, widget: number }
   slider-title: { label: Slider Title, widget: string }
-  agenda-slider:{ label: Agenda Slider, widget: number }
+  agenda-slider: { label: Agenda Slider, widget: number }
   layout:
     label: Layout
     widget: select
