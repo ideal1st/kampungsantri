@@ -1,8 +1,8 @@
-enabled: false
-messiness: 18
-maxRotation: 8
-scale: 0.98
+enabled: true
+messiness: 4
+maxRotation: 4
+scale: 0.3
 width: 280
 margin: 8
 shadow: true
-hoverScale: 1.05
+hoverScale: 1.02
