@@ -1,7 +1,4 @@
-# Polaroid gallery settings for the Kunjungan (Guests) section.
-# Edit this file from the Admin Dashboard under "Data" > "polaroid".
-
-enabled: true
+enabled: false
 messiness: 18
 maxRotation: 8
 scale: 0.98
