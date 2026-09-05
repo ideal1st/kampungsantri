@@ -41,8 +41,8 @@
     if (!token) return;
     window.GitHub.setToken(token);
     try {
-      await window.GitHub.api('/user');
-      startApp();
+      await window.GitHub.getUser();
+      await startApp();
     } catch (e) {
       $('login-error').textContent = e.message;
       window.GitHub.removeToken();
@@ -58,7 +58,7 @@
       location.reload();
     };
     try {
-      const user = await window.GitHub.api('/user');
+      const user = await window.GitHub.getUser();
       $('user-info').textContent = user.login;
       renderSidebar();
       showHome();

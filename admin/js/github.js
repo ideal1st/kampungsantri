@@ -22,15 +22,19 @@ window.GitHub = (function () {
   }
 
   async function api(path, options) {
+    options = options || {};
     const token = getToken();
     const headers = {
       'Accept': 'application/vnd.github+json'
     };
     if (token) headers['Authorization'] = `Bearer ${token}`;
 
-    const url = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}${path}`;
-    const res = await fetch(url, Object.assign({}, options, {
-      headers: Object.assign({}, headers, options && options.headers || {})
+    const url = options.absolute
+      ? `https://api.github.com${path}`
+      : `https://api.github.com/repos/${cfg.owner}/${cfg.repo}${path}`;
+    const { absolute, ...fetchOpts } = options;
+    const res = await fetch(url, Object.assign({}, fetchOpts, {
+      headers: Object.assign({}, headers, fetchOpts.headers || {})
     }));
 
     if (!res.ok) {
@@ -83,6 +87,10 @@ window.GitHub = (function () {
     });
   }
 
+  function getUser() {
+    return api('/user', { absolute: true });
+  }
+
   return {
     init: (config) => { cfg = config; },
     getToken,
@@ -95,6 +103,7 @@ window.GitHub = (function () {
     getFile,
     putFile,
     putFileRaw,
-    deleteFile
+    deleteFile,
+    getUser
   };
 })();
