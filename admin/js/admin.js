@@ -355,6 +355,12 @@
     save.textContent = 'Simpan';
     save.onclick = saveEditor;
     act.appendChild(save);
+    if (CURRENT.type === 'collection') {
+      const dup = document.createElement('button');
+      dup.textContent = 'Duplikat';
+      dup.onclick = duplicateItem;
+      act.appendChild(dup);
+    }
     const del = document.createElement('button');
     del.textContent = 'Hapus';
     del.className = 'danger';
@@ -413,18 +419,44 @@
     }
   }
 
+  async function getTemplateFront(collection) {
+    try {
+      const items = await window.GitHub.listDir(collection.folder);
+      const first = items
+        .filter(it => it.type === 'file' && (it.name.endsWith('.md') || it.name.endsWith('.markdown')))
+        .sort((a, b) => a.name.localeCompare(b.name))[0];
+      if (first) {
+        const file = await window.GitHub.getFile(first.path);
+        const parsed = window.Jekyll.splitFile(file.text);
+        return { front: parsed.front, ext: first.name.split('.').pop() };
+      }
+    } catch (e) { /* ignore */ }
+    return { front: {}, ext: 'markdown' };
+  }
+
   async function newCollectionItem(collection) {
     const title = prompt('Judul baru:');
     if (!title) return;
+    const { front: template, ext } = await getTemplateFront(collection);
     const filename = collection.name === 'posts'
       ? window.Jekyll.postFilename(null, title)
-      : window.Jekyll.slugFilename(title, 'markdown');
+      : window.Jekyll.slugFilename(title, ext || 'markdown');
     const path = collection.folder + '/' + filename;
-    const front = {
-      title,
-      date: new Date().toISOString(),
-      layout: collection.name === 'posts' ? 'page' : 'default'
-    };
+    const front = {};
+    if (template && Object.keys(template).length) {
+      Object.keys(template).forEach(key => {
+        if (key === 'title') front[key] = title;
+        else if (key === 'date') front[key] = new Date().toISOString();
+        else if (typeof template[key] === 'number') front[key] = null;
+        else if (typeof template[key] === 'boolean') front[key] = false;
+        else if (template[key] !== null && typeof template[key] === 'object') front[key] = null;
+        else front[key] = null;
+      });
+    } else {
+      front.title = title;
+      front.date = new Date().toISOString();
+      front.layout = collection.name === 'posts' ? 'page' : 'default';
+    }
     const text = window.Jekyll.composeFile(front, '');
     try {
       const res = await window.GitHub.putFile(path, text, undefined, `Create ${title}`);
@@ -442,15 +474,44 @@
     }
   }
 
+  async function duplicateItem() {
+    if (CURRENT.type !== 'collection') return;
+    const title = prompt('Judul duplikat:', (CURRENT.front.title || 'Copy') + ' (Copy)');
+    if (!title) return;
+    const ext = CURRENT.path.split('.').pop() || 'markdown';
+    const filename = window.Jekyll.slugFilename(title, ext);
+    const path = CURRENT.collection.folder + '/' + filename;
+    const front = Object.assign({}, CURRENT.front);
+    front.title = title;
+    if ('date' in front) front.date = new Date().toISOString();
+    const text = window.Jekyll.composeFile(front, CURRENT.body);
+    try {
+      const res = await window.GitHub.putFile(path, text, undefined, `Duplicate ${title} from ${CURRENT.path}`);
+      CURRENT = {
+        type: 'collection',
+        collection: CURRENT.collection,
+        path,
+        sha: res.content.sha,
+        front,
+        body: CURRENT.body
+      };
+      renderEditor();
+      $('workspace').insertBefore(message('Duplikat dibuat.'), $('workspace').firstChild);
+    } catch (e) {
+      alert(e.message);
+    }
+  }
+
   async function loadMedia() {
     const ws = $('workspace');
-    ws.innerHTML = '<h2>Media / Uploads</h2>';
+    ws.innerHTML = '<h2>Media Library</h2><p>Kelola koleksi gambar di _uploads.</p>';
 
     const up = document.createElement('div');
     up.className = 'form-row';
     const fileInput = document.createElement('input');
     fileInput.type = 'file';
     fileInput.accept = 'image/*';
+    fileInput.multiple = true;
     const upBtn = document.createElement('button');
     upBtn.textContent = 'Upload';
     upBtn.onclick = () => uploadMedia(fileInput);
@@ -465,23 +526,36 @@
 
     try {
       const items = await window.GitHub.listDir(CONFIG.media.folder);
+      items.sort((a, b) => a.name.localeCompare(b.name));
       items.forEach(it => {
         if (it.type !== 'file') return;
         const div = document.createElement('div');
-        div.className = 'media-thumb';
-        div.title = it.name;
+        div.className = 'media-item';
         const img = document.createElement('img');
         img.src = `https://raw.githubusercontent.com/${CONFIG.site.owner}/${CONFIG.site.repo}/${CONFIG.site.branch}/${it.path}`;
         img.onerror = () => { img.hidden = true; };
         const name = document.createElement('div');
         name.className = 'name';
         name.textContent = it.name;
+        const size = document.createElement('div');
+        size.className = 'size';
+        size.textContent = formatBytes(it.size);
+        const path = `${CONFIG.site.public_folder}${it.name}`;
+        const copy = document.createElement('button');
+        copy.textContent = 'Copy';
+        copy.onclick = () => { navigator.clipboard.writeText(path); copy.textContent = 'Copied!'; };
+        const del = document.createElement('button');
+        del.textContent = 'Delete';
+        del.className = 'danger';
+        del.onclick = async () => { if (confirm(`Hapus ${it.name}?`)) await deleteMedia(it.path, it.sha); };
+        const actions = document.createElement('div');
+        actions.className = 'actions';
+        actions.appendChild(copy);
+        actions.appendChild(del);
         div.appendChild(img);
         div.appendChild(name);
-        div.onclick = () => {
-          navigator.clipboard.writeText(`${CONFIG.site.public_folder}${it.name}`);
-          div.style.background = '#d4edda';
-        };
+        div.appendChild(size);
+        div.appendChild(actions);
         grid.appendChild(div);
       });
     } catch (e) {
@@ -489,21 +563,46 @@
     }
   }
 
+  function formatBytes(bytes) {
+    if (!bytes) return '0 B';
+    const k = 1024;
+    const sizes = ['B', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+  }
+
   async function uploadMedia(input) {
-    const file = input.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = async () => {
-      const b64 = reader.result.split(',')[1];
-      const path = CONFIG.media.folder + '/' + file.name;
+    const files = Array.from(input.files);
+    if (!files.length) return;
+    for (const file of files) {
       try {
+        const b64 = await readFileAsDataURL(file);
+        const path = CONFIG.media.folder + '/' + file.name;
         await window.GitHub.putFileRaw(path, b64, undefined, `Upload ${file.name}`);
-        loadMedia();
       } catch (e) {
         alert(e.message);
+        return;
       }
-    };
-    reader.readAsDataURL(file);
+    }
+    loadMedia();
+  }
+
+  function readFileAsDataURL(file) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result.split(',')[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+  }
+
+  async function deleteMedia(path, sha) {
+    try {
+      await window.GitHub.deleteFile(path, sha, `Delete ${path}`);
+      loadMedia();
+    } catch (e) {
+      alert(e.message);
+    }
   }
 
   function openImagePicker(input) {
