@@ -934,3 +934,48 @@ li.requirement-item {
 	margin: auto;
 	max-width: 100%;
 }
+
+/* Polaroid gallery for Kunjungan section */
+.polaroid-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.polaroid-card {
+  background: #fff;
+  padding: 12px 12px 24px;
+  border: 1px solid #eee;
+  text-align: center;
+  cursor: default;
+}
+
+.polaroid-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.polaroid-card figcaption h4 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: #5d8f12;
+  text-transform: none;
+}
+
+.polaroid-card figcaption p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .polaroid-card {
+    width: 45vw !important;
+  }
+}

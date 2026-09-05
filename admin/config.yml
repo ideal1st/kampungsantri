@@ -130,6 +130,10 @@ data:
     label: Template (warna & font)
     file: _data/template.yml
 
+  - name: polaroid
+    label: Polaroid Gallery
+    file: _data/polaroid.yml
+
 # Media upload settings.
 media:
   folder: _uploads
