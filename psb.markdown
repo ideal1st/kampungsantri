@@ -83,7 +83,11 @@ persyaratan:
       comment: Total Biaya
       note: Rp 27.000.000
 brosur:
-  title: brosur
-  comment: Penerimaan Santri Baru 2027/2028
-  url: https://drive.google.com/file/d/1RHjnOdb3Hpzvwg_Li0x4D9div6YZY-gM/preview
+  items:
+  - title: Brosur
+    comment: Penerimaan Santri Baru 2027/2028
+    url: https://drive.google.com/file/d/1RHjnOdb3Hpzvwg_Li0x4D9div6YZY-gM/preview
+  - title: Brosur
+    comment: TDP Kampung Santri 2026
+    url: https://drive.google.com/file/d/1IAe-ul7sES2F6IBVmPpFbUP-iQLe5Gql/preview
 ---
